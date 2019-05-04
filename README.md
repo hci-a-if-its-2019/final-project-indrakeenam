@@ -7,14 +7,16 @@
 ---
 
 # Project Topic : CTFWeb
-This web was a product of a past assignment in Web Programming Course.
+![CTF Web](artifact/main.PNG)
+This web was a product form Indra's past assignment in Web Programming Course.
 
-# System Description
+## System Description
 Capture the Flag (CTF) is a special kind of information security competitions. There are three common types of CTFs: Jeopardy, Attack-Defence and mixed. This site focused on Jeopardy-style CTFs.
 
 The Jeopardy-style CTF is similar to the actual Jeopardy game as the scoreboard looks like a Jeopardy board with different categories and point values. Some of the categories can include Cryptography, Steganography, Physical Security and Scanning. There are several other categories that can be used. Some of the challenges can be done against a main server that was developed for the CTF and the flag is inputted into the CTF scoreboard to get points for the team. A timer is used to start and stop the CTF and once the timer finishes, the game is over. The team with the most points at the end wins.
 
 This site focuses on individual solving Jeopardies, and sharing their own problem to the others. Each user can post their own problems publicly, and they have access to all problem posted.
+
 
 # Contextual Inquiry
 
@@ -32,7 +34,7 @@ This is the question that is asked before performing evaluation so we can unders
 9. When the last time you use it?
 
 ## Evaluation Script
-This script is used to evaluate the system's current interface.
+This script is used to evaluate the system's current interface. The user will be guided to follow this script.
 
 1. Go to your dashboard
 2. Show me the list of all available problems
@@ -43,17 +45,40 @@ This script is used to evaluate the system's current interface.
 7. Tell me the username with the highest score
 8. Show me your submission history
 9. Show me all of your submitted problems
-10. Please log out from the system
+10. Log out from the system
 
 ## Description
 
 ### Participant 1
+- Male
+- Informatics Student Batch 2017 at ITS
+- Former Robotics Student
+- Active Internet User
+- Never do CTF before
+- Didn't understand CTF
 
 ### Participant 2
+- Male
+- Informatics Student Batch 2017 at ITS
+- Active in Competitive Programming
+- Active Internet User
+- Never do CTF before
+- Know about by Definition
 
 ### Participant 3
+- Male
+- Informatics Student Batch 2017 at ITS
+- Active in Capture The Flag
+- Active Internet User
+- Did some CTF in the past few days (Since the interview is held)
+- Understand CTF
 
 ### Participant 4
+- Male
+- Informatics Student Batch 2016 at ITS
+- Active Internet User
+- Never do CTF before
+- Know about CTF (Has seen it)
 
 ## Transcript
 
@@ -74,4 +99,26 @@ This script is used to evaluate the system's current interface.
 
 ## Cultural Model
 
-# Do's And Don't
+## Do's And Don't
+
+# Prototype - Iteration 1
+
+## Sketches
+
+## Design Rationale
+
+## High Fidelity Prototype
+
+## User Testing
+
+## Observation
+
+### Observation - 1
+
+### Observation - 2
+
+### Observation - 3
+
+### Do's and Don't
+
+# Result
