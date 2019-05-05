@@ -173,10 +173,72 @@ This script is used to evaluate the system's current interface. The user will be
 1. x : Silakan log out,ya sudah ,terima kasih
 1. y : sama-sama
 
-
-
-
 ### Participant 3
+
+1. x : selamat siang,disini kami akan melakukan uji coba terhadap sistem web CTF yang diujicoba adalah sistemnya bukan anda jadi kerjakan sebisanya,tapi sebelumnya ada pertanyaan untuk memverifikasi dulu ya,apakah anda pengguna aktif internet ?
+1. y : ya
+1. x : seberapa aktif anda menggunakan internet ?
+1. y : sering sih 2/3 hari saya pakai internet
+1. x : web apa saja yang anda gunakan
+1. y : web umum nih
+1. x : kan anda aktif tuh,yang sering anda kunjungi apa
+1. y : youtube pasti
+1. x : oke-oke bagus-bagus,pernah gak mengunjungi website dengan desain yang jelek gitu ?
+1. y : di youtube ?
+1. x : bukan di youtube,di website yang pernah anda gunakan
+1. y : ohhh pernah pasti
+1. x : menurut anda apakah itu menggangu,seberapa susah anda untuk mendapatkan tujuan anda
+	kalau menggunakan webiste tersebut,yang jelek tadi
+1. y : ya cukup menggangu gitu sih
+1. x : cukup menggangu gitu kan ya,nah seberapa menggangu sih bisa dijelaskan kok bisa menggangu
+1. y : seharusnya bisa dilakukan dengan simple,dengan desain yang buruk menjadikan waktu yang diperlukan 
+	lebih lama
+1. x : apa yang anda ketahui tentang CTF
+1. y : kalau CTF tahunya capture the flag itu,itu nyari flag buat ,buat disubmit,buat menangin CTF
+1. x : pernah gak menggunakan website CTF
+1. y : kalau menggunakan belum pernah, tapi kalau melihat udah pernah
+1. x : ohh kalau melihat udah pernah gitu ya,terakhir kali melihat kapan ?
+1. y : semester 3 atau 2
+1. x : nah yaudah,sekarang kita akan memberikan instruksi,lakuka sebisa mungkin,
+	silakan menuju ke dashboard anda
+1. y : ini dashboard gak ?
+1. x : ini login page,halaman andalah anggap anda
+1. y : kalau daftar gitu boleh ?
+1. x : gak papa,
+1. x : kalau anda melihat suatu yang aneh utarakan saja
+1. x : bisa tolong sebutkan judul-judul problem yang ada
+1. y : math1,indra,math0,xvinsen,berfirman,vinsen,indra,freepoin,bis64,indra,anwar22,apa ini,
+1. x : jadi judul-judul itu ya,silakan buat sebuah problem dan tambahkan file di problem tadi
+1. y : tambahkan file?
+1. x : problem berfile lah
+1. y : (mengisi form problem)
+1. x : bisa tunjukan problem tadi yang dibuat ?
+1. y : ini sedikit sulit menurut saya,kalau misalnya bisa di 1. x gini,mouse pointernya berubah gitu
+1. x : oh oke,silakan edit problem tadi yang anda buat
+1. y : (memperbarui problem)
+1. x : bisa tunjukan perubahannya
+1. y :
+1. x : silakan cari problem yang memiliki file,dan tunjukin problem itu kepada kami,silakan download file tersebut dan 	tunjukan pada kami
+1. y : (menunjukan problem)
+1. x : oke udah ya,silakan selsaikan sebuah problem selain yang anda buat
+ : bisa gak nunjukin username dengan score tertinggi
+ : rahma
+ : bisa gak nunjukin submission history apa aja ?
+
+1. x : bisa gak nunjikn problem nomer 7 yang mana
+1. y : problem nomer 7 ya (mengihitung dari bawah)
+1. x : gabisa ya,ga tahu gitu
+1. y : ya
+1. x : bisa gak menunjukin problem yang sudah anda tambahkan
+1. y : oke
+1. x : silakan delete salah satu problem 
+1. y : (mengerjkan instruksi)
+1. x : apakah bisa-bisa
+1. y : jadi sedikit masalah
+1. x : paham gak masalah tadi
+1. y : sepertinya kesalahan diservernya
+1. x : sudah selsai sih,silakan logout dari sistemnya
+
 
 ### Participant 4
 
