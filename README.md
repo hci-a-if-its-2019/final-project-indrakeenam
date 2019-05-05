@@ -85,9 +85,102 @@ This script is used to evaluate the system's current interface. The user will be
 ### Participant 1
 
 ### Participant 2
-1. x : jadi disini kami akan ngetees sebelum sistem jadi perlu diingat yang perlu dites sistemnya bukan kemampuan anda jadi santai   aja,tapi sebelum mulai kita ingin tahu background terlebih dahuulu,jadi akan ada pertanyaan pertanyaan pertama itu apakah anada mengkategorikan diri anda itu sebagai pengguna aktif internet
+```
+	x : interviewr
+	y : interviewee
+
+1. x : Disini kita menguji sistemnya,bukan menguji anda jadi dikerjakan sebisa mungkin,jadi kalau ada kesalahan yang salah itu sistemnya
+1. y : oke
+1. x : pertama itu kami harus mengerti dulu background anda itu seperti apa,jadi akan ada pertanyaan,
+menurut anda ,anda itu pengguna aktif internet apa enggak ?
+1. y :iya
+1. x : seberapa aktif ?
+1. y : seberapa aktifnya ya,bisa dikatakan ya setiap hari menggunakan internet
+1. x : pernah mengunjungi website apa?
+1. y : website yang paling sering apa ya,kalau dibilang 
+lebih ke email sih,dari google ,gmail gitu sih
+1. x : pernah gak menemui website yang memili desain yang buruk ?
+1. y : pernah
+1. x : pernah gak anda merasa kesulitan untuk mencapai yang anda tuju itu,misal kayak mau mendownload ?
+1. y : adasih website yang mau mendownlod sesuatu entah dari iklannya,kira-kira harus menekan yang mana gitu 
+1. x : menurut anda menggangu gak sih ?
+1. y : cukup menggangu sih,kalau aku lebih suka website yang penting jelas,jadi misalkan mau login dimana,mau logout dimana,mau mencari dimana,jelas gitu 
+1. x : pernah gak dengar kayak CTF gitu
+1. y : pernah
+1. x : Capture The Flag,Bisa gak jelasi CTF itu gimana ?
+1. y : gabisa
+1. x : secara sepengatahuan anda mungkin
+1. y : kalau berdasarkan dari itu sendiri,capture the flag ngambil sesuatu, kita nyari sesuatu ,dapet gitu nyari dari manapun,nanti kalau yang kita cari dapet yaudah gitu
+1. x : pernah gak menggunakan website yang mengadakan CTF gitu,pernah menggunakan aja,mungkin iseng-iseng
+1. y : kurang tahu ya
+1. x : jadi saya asumsikan belum
+1. y : bisa diamsusikan begitu
+1. x : nah sekarang kita mulai kebagai instruksi ya,saya akan menyebutkan beberapa instruksi ,anda cukup melakukan saja
+1. y : oke
+1. x : yang pertama itu silakan coba tunjukan dashboard anda dari website ini yang sudah dibuka
+1. y :seharusnya ya ini udah (menunjukan login page)
+1. x : oh iya,maksudnya kayak dashboard halaman,kalau ini (login page) kayak homepage,dashboardnya dimana?
+1. y :apa harus register dulu ya ini
+1. x : mungkin
+1. y :(melakukan register)
+1. x : Kalau anda menemukan kejanggalan bisa ngomong
+1. y :(Partisipan melakukan login)
+1. x : jadi ini dashboardnya (menunjuk dashboard),bisa gak nunjukin list problem yang ada ?
+1. y :ini judulnya (menunjuk judul)
+1. x : menurut anda bagaimana
+1. y :kalau menurutku math1 indra,math0 vinsen,jadi ini judulnya(menunjuk judul),terus siapa yang membuat(menunjuk pembuat yang berada disamping judul),terus dikananya ada math-1,misc-5,math-10(menunjuk kategori dan score),mungkin type sama difficulty
+1. x : jadi 1,20 itu difficulty
+1. y : iya
+1. x : oke,buat problem baru disitu bebas menambahkan file atau tidak
+1. y : oke,(participant masuk ke halaman create problem,dan memasukan data di form create problem lalu mensubmit form)
+1. x : bisa tunjukan yang tadi dibuat ?
+1. y : ini (menunjukan problem yang telah partisipan buat tadi)
+1. x : sekarang buat sebuah problem baru dan masukan file disitu
+1. y : (masuk halaman create problem dan mengisi form create problem lalu mensubmit form)
+1. x : sekarang tunjukan yang tadi anda buat
+1. y : (menunjukan problem yang baru saja dibuat)
+1. x : silahkan cari sebuah problem yang memiliki file selain problem anda dan problem partisipan sebelumnya
+1. y : (partispan mengklik menu problem,dan mencoba mengklik browse problem) browse problemnya belum bisa
+(partisipan mencoba mencari manual)ini (menunjukan problem)
+1. x : bisa di download
+1. y : bisa
+1. x : silahkan edit problem anda yang tadi anda buat
+1. y : (partisipan mengklik halaman profil lalu mengklik edit problem  dan memperbarui problem  )
+1. x : sudah yakin teredit,apakah bisa ditunjukan hasilnya
+1. y : kayaknya belum (partisipan belum terlalu yakin problem yang sudah di edit tersimpan) bentar aku cek lagi (partispan berpindah ke halaman lain terus kembali ke halaman edit untuk memastikan problem telah diperbarui) udah tapi pas tadi aku submit (menunjukan kendala) dia yang dilihat di deskripsinya  yang sebelumnya,sebelum diedit tapi pas dicek udah ada udah diubah berubah
+1. x : tolong delete satu problem anda yang paling baru
+1. y : oke (menuju halaman profil lalu mengklik tombol delete pada problem) sudah
+1. x : itu sudah yang paling baru ya ,oke sip, silakan selsaikan problem yang ada disitu,yang ada di list problem ,bebas kok
+1. y : (partisipan menuju halaman list problem dan mengerjakan salah satu problem ) udah
+1. x : bisa gak nunjukin problem mana ada yang udah disolve,listnya gitu 
+1. y : (Partisipan menjelajahi halaman website melalui menu)
+1. x : tadi pernah ngesolve apa
+1. y : udah
+1. x : yang mana
+1. y :tadi mencet namaku terus keluar (menunjukan problem yang telah disubmit) ada pa ini(keluar Notice error pada web)
+1. x : problem 3 itu problem mana,bisa gak membuktikan sebuah problem itu problem nomer 3
+1. y : gak bisa,disini tidak ada penjelasan problem 3 sih,gak tahu gitu ya
+1. x : oke
+1. y : sama ada apa ini Notice index (menunjukan notice error yang tampil pada halaman) gak tahu mungkin ada yang error gitu
+1. x : fitur mungkin ya
+1. y : iya
+1. x : lalu bisa gak menunjukan username dengan score tertinggi saat ini siapa?
+1. y : oke,ini kalau disini namanya rahma scorenya 10000 (menunjukan username pada list scoreboard yang memiliki score tertinggi)
+1. x : bisakah anda melogout di sistem ini
+1. y : oke
+1. x : terima kasih
+
+```
+
+### Participant 3
+```
+	x : interviewr
+	y : interviewee
+
+1. x : jadi disini kami akan ngetees sebelum sistem jadi perlu diingat yang perlu dites sistemnya bukan kemampuan anda jadi santai aja,tapi sebelum mulai kita ingin tahu background terlebih dahuulu,jadi akan ada pertanyaan pertanyaan pertama itu apakah anada mengkategorikan diri anda itu sebagai pengguna aktif internet ?
 1. y : ya
-1. x : seberapa aktif anda?1. y : maksunya seberapa ?
+1. x : seberapa aktif anda?
+1. y : maksunya seberapa 
 1. x : misal sering banget menggunakan internet
 1. y : ya nggak sering banget sih,sering buat ngecek-ngecek apa namanya ini informasi kayak apa sosial media gitu
 1. x : oh ya
@@ -96,10 +189,13 @@ This script is used to evaluate the system's current interface. The user will be
 1. y : kalau website kayak forum-forum gitu
 1. x : pernah gak menemui sebuah website yang desainnya tuh jelek gitu menurut anda
 1. y : ya pernah
-1. x : ketika anda menggunakan desain yang jelek itu kesusahan gak anda  mencapai tujuan anda,misal anda di website downloader mau download jadi susah
-1. y : ya itu juga termasuk kesusahan sih,ya di webnya itu kayak tersedia download tapi gak tahu dimana downloadnya dan tertutup juga dengan iklan-iklan,sering ketipu gitu
+1. x : ketika anda menggunakan desain yang jelek itu kesusahan gak anda 
+	mencapai tujuan anda,misal anda di website downloader mau download jadi susah
+1. y : ya itu juga termasuk kesusahan sih,ya di webnya itu kayak tersedia download tapi
+	gak tahu dimana downloadnya dan tertutup juga dengan iklan-iklan,sering ketipu gitu
 1. x : apa yang anda ketahui dengan CTF ?
-1. y : CTF itu kayak capture the flag ,jadi kita mendapatakan informasi sebuah flag dari suatu web,file atau dari enkripsi gitu,ya itu namanya CTF,
+1. y : CTF itu kayak capture the flag ,jadi kita mendapatakan informasi sebuah flag
+	dari suatu web,file atau dari enkripsi gitu,ya itu namanya CTF,
 1. x : pernah gak menggunakan website CTF gitu?
 1. y : maksudnya web yang berisi kayak latihan?
 1. x : nah iya
@@ -112,134 +208,68 @@ This script is used to evaluate the system's current interface. The user will be
 1. y : oh iya rajin
 1. x : nah kita sudah cukup mendapatkan data anda,sekarang kita masuk ke instruksi
 1. y : ya
-1. x : jadi nanti saya membacakan beberapa instruksi,bukan membacakan sih, tapi meminta anda untuk melakukan suatu hal,anda lakukan sebisa mungkin, jadi kalau anda menemukan kejanggalan-kejanggalan di website ini silakan diutarakan saja ya
+1. x : jadi nanti saya membacakan beberapa instruksi,bukan membacakan sih,
+	tapi meminta anda untuk melakukan suatu hal,anda lakukan sebisa mungkin,
+	jadi kalau anda menemukan kejanggalan-kejanggalan di website ini silakan diutarakan saja ya
 1. y : hmmm iya
 1. x : nah,instruksi pertama ,silakan tunjukan dashboard anda
 1. y : kalau dashboard ini gak ada,kita harus login dulu
 1. x : bisa ditunjukan sampai terlihat gitu
-1. y : ini usernamenya coba ya (mencoba melakukan login), coba register aja (melakukan register)
+1. y : ini usernamenya coba ya (mencoba melakukan login),
+	coba register aja (melakukan register)
 1. x : oke
 1. y : what(salah login),buat lagi (melakukan register kembali)
-1. x : oke
+1. x : yaudah
 1. y : nah (berhasil login)
 1. x : ini dashboardnya berarti ya
 1. y : ya
-1. x : bisa gak menyebutkan problem-problem yang ada,cukup sampai yang dibuat (tester sebelumnya) terkahir ,jadi tidak semua
+1. x : bisa gak menyebutkan problem-problem yang ada,cukup sampai yang dibuat (partisipan sebelumnya)terkahir ,jadi tidak semua
 1. y : jadi buat problem gitu
 1. x : enggak,sebutkan problemnya disini apa aja
 1. y : ohh
 1. x : judulnya aja ya
-1. y : ini math,judulnya tentang kayak perhitungan matematika,terus apa ini, kayak miss gitu
+1. y : ini math,judulnya tentang kayak perhitungan matematika,terus apa ini,kayak miss gitu
 1. x : enggak judulnya,judul dari problem itu
 1. y : ohhh judul ini
 1. x : ya menurut anda yang mana,bebas kok
-1. y : ohh bebas ya,oh apa ini aja
+1. y : ohh bebas ya,oh apa ini aja (menunjuk salah satu probelm)
 1. x : judulnya
 1. y : apa ini
-1. x : ohhh,bisa anda buat problem baru gitu
-1. y :	jadi create a problem (memilih menu create a problem),apa ya,problemnya masalah
-1. x : oke
-1. y : kripto aja
-1. x : flagnya
-1. y : flagnya ini malasah,nah kayak CTF
-1. x : oke
-1. y : scorenya 20 aja cukup, ini adalah masalah silakan (mengisi deskripsi),oke submit ohh tidak saya lupa
+1. x : ohhh judulnya apa ini gitu ya,silahkan bisa anda buat problem baru gitu
+1. y :	jadi create a problem (memilih menu create a problem),apa ya,problemnya masalah (partisipan mengisi form create problem) scorenya 20 aja cukup, ini adalah masalah silakan (mengisi deskripsi),oke submit ohh tidak saya lupa
 1. x : silakan buat lagi
 1. y : kenapa gitu,sedih sekali ,score 20 ,ini masalah (mengisi form create a problem),nah ini udah
 1. x : oke,problem yang paling baru?
-1. y : yang paling bawah
+1. y : yang paling bawah (menunjukan problem baru)
 1. x : itu yang bawah ya
-1. y : ini harus ada enternya
+1. y : ini harus ada enternya,padahal tadi udah dienter (menunjukan deskripsi yang telah diinput tidak sesuai dengan deskripsi yang ditampilkan)
 1. x : seharusnya ada enter gitu ya,bisa tunjukin ini gak,silakan edit problem yang tadi dibuat
-1. y : (melakukan edit problem) nah kesulitannya ketika edit,tidak kembali ke dashboard, pas di edit tiba-tiba ngedit lagi,itu masalahnya
+1. y : (melakukan edit problem) nah kesulitannya ketika edit,tidak kembali ke dashboard,kebingunan gitu, pas di edit tiba-tiba ngedit lagi,itu masalahnya
 1. x : oke ,lalu silakan satu problem yang ada
 1. y : oke punyaku ada
 1. x : selain yang anda buat
 1. y : math aja deh gampang,ini dua
 1. x : bisa nunjukin kalau tadi udah disolve
-1. y : nah itu juga,pas disolve,ohhh udah gak jadi
+1. y : nah itu juga,pas disolve,ohhh udah gak jadi(menemukan bahwa problem telah solve)
 1. x : lalu bisa gak nunjukin username dengan score tertinggi
-1. y : ini scoreboard, waduh banyak sekali ini , ya ini
+1. y : ini scoreboard (masuk kehalaman scoreboard), waduh banyak sekali ini , ya ini 
 1. x : bisa gak tadi itu udah nyelsain apa aja
-1. y : (menjelajahi web)ya gak ada ,mungkin ini
+1. y : (menjelajahi web)waduh ini dimana ya,ya gak ada(partisipan masih kebingunan menemukan problem yang telah tersolve),mungkin ini (masuk kehalaman profil)
 1. x : bisa gak nunjukin problem 3 yang mana
-1. y : ya gak ada,
+1. y : ya gak ada (melihat list problem),
 1. x : gak bisa nunjukin gitu ya
 1. y : ya ga bisa
 1. x : silakan delete salah satu problem yang dibuat tadi
-1. y : yang terbaru itu ya, ya ini juga harusnya terbaru paling atas biar gampang
+1. y : (menuju halaman profil)yang terbaru itu ya, ya ini juga harusnya terbaru paling atas biar gampang
+(menghapus salah satu problem)
 1. x : oke
 1. y : udah
-1. x : Silakan log out,ya sudah ,terima kasih
+1. x : Silakan log out,
+1. y : (partisipan melakukan log out)
+1. x : ya sudah ,terima kasih
 1. y : sama-sama
 
-### Participant 3
-
-1. x : selamat siang,disini kami akan melakukan uji coba terhadap sistem web CTF yang diujicoba adalah sistemnya bukan anda jadi kerjakan sebisanya,tapi sebelumnya ada pertanyaan untuk memverifikasi dulu ya,apakah anda pengguna aktif internet ?
-1. y : ya
-1. x : seberapa aktif anda menggunakan internet ?
-1. y : sering sih 2/3 hari saya pakai internet
-1. x : web apa saja yang anda gunakan
-1. y : web umum nih
-1. x : kan anda aktif tuh,yang sering anda kunjungi apa
-1. y : youtube pasti
-1. x : oke-oke bagus-bagus,pernah gak mengunjungi website dengan desain yang jelek gitu ?
-1. y : di youtube ?
-1. x : bukan di youtube,di website yang pernah anda gunakan
-1. y : ohhh pernah pasti
-1. x : menurut anda apakah itu menggangu,seberapa susah anda untuk mendapatkan tujuan anda
-	kalau menggunakan webiste tersebut,yang jelek tadi
-1. y : ya cukup menggangu gitu sih
-1. x : cukup menggangu gitu kan ya,nah seberapa menggangu sih bisa dijelaskan kok bisa menggangu
-1. y : seharusnya bisa dilakukan dengan simple,dengan desain yang buruk menjadikan waktu yang diperlukan 
-	lebih lama
-1. x : apa yang anda ketahui tentang CTF
-1. y : kalau CTF tahunya capture the flag itu,itu nyari flag buat ,buat disubmit,buat menangin CTF
-1. x : pernah gak menggunakan website CTF
-1. y : kalau menggunakan belum pernah, tapi kalau melihat udah pernah
-1. x : ohh kalau melihat udah pernah gitu ya,terakhir kali melihat kapan ?
-1. y : semester 3 atau 2
-1. x : nah yaudah,sekarang kita akan memberikan instruksi,lakuka sebisa mungkin,
-	silakan menuju ke dashboard anda
-1. y : ini dashboard gak ?
-1. x : ini login page,halaman andalah anggap anda
-1. y : kalau daftar gitu boleh ?
-1. x : gak papa,
-1. x : kalau anda melihat suatu yang aneh utarakan saja
-1. x : bisa tolong sebutkan judul-judul problem yang ada
-1. y : math1,indra,math0,xvinsen,berfirman,vinsen,indra,freepoin,bis64,indra,anwar22,apa ini,
-1. x : jadi judul-judul itu ya,silakan buat sebuah problem dan tambahkan file di problem tadi
-1. y : tambahkan file?
-1. x : problem berfile lah
-1. y : (mengisi form problem)
-1. x : bisa tunjukan problem tadi yang dibuat ?
-1. y : ini sedikit sulit menurut saya,kalau misalnya bisa di 1. x gini,mouse pointernya berubah gitu
-1. x : oh oke,silakan edit problem tadi yang anda buat
-1. y : (memperbarui problem)
-1. x : bisa tunjukan perubahannya
-1. y :
-1. x : silakan cari problem yang memiliki file,dan tunjukin problem itu kepada kami,silakan download file tersebut dan 	tunjukan pada kami
-1. y : (menunjukan problem)
-1. x : oke udah ya,silakan selsaikan sebuah problem selain yang anda buat
- : bisa gak nunjukin username dengan score tertinggi
- : rahma
- : bisa gak nunjukin submission history apa aja ?
-
-1. x : bisa gak nunjikn problem nomer 7 yang mana
-1. y : problem nomer 7 ya (mengihitung dari bawah)
-1. x : gabisa ya,ga tahu gitu
-1. y : ya
-1. x : bisa gak menunjukin problem yang sudah anda tambahkan
-1. y : oke
-1. x : silakan delete salah satu problem 
-1. y : (mengerjkan instruksi)
-1. x : apakah bisa-bisa
-1. y : jadi sedikit masalah
-1. x : paham gak masalah tadi
-1. y : sepertinya kesalahan diservernya
-1. x : sudah selsai sih,silakan logout dari sistemnya
-
-
+```
 ### Participant 4
 
 
