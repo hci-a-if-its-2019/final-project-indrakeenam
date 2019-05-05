@@ -86,53 +86,72 @@ This script is used to evaluate the system's current interface. The user will be
 ```
 Interviewer = I
 Interviewee = X
-1. X : Kurang tau ctf itu apa, pemahaman masih nol.
-2. X : Karena gatau jadi belum pernah memakai situsnya.
-3. I : Instruksi pertama, silakan menuju ke dashboard anda.
-4. X : (04:50 mengecek domain memastikan sudah benar) Yaapa masuknya.
+1. I : Disini kita akan melakukan percobaan terhadap suatu sistem yang kita buat, jadi kita tidak mengetes Anda, 
+	jadi santai saja, tidak ada yang salah. Kalau ada yang salah berarti sistemya yang salah. Nanti akan ada
+	sekumpulan instruksi untuk dilakukan.
+2. I : Jadi disini kita akan melakukan ujicoba terhadap sistem web CTF. Sebelum dimulai saya ingin bertanya, apakah
+	anda mengkategorikan Anda sebagai pengguna internet yang aktif? Jika ya, seberapa sering?
+3. X : Sering, hampir setiap hari.
+4. I : Website seperti apa yang Anda kunjungi biasanya.
+5. X : Website seperti Youtube, gmail, dan masih banyak lagi.
+6. I : Menurutmu, pernah tidak menemukan suatu web dengan desain yang jelek, sampai anda bingung.
+7. X : Jarang, mungkin dulu pernah, tapi sudah lupa juga.	
+8. I : Mungkin bisa dijelaskan lebih detail menurut anda, desain yang jelek seperti apa.
+9. X : Mungkin jeleknya membuat kita tidak tahu harus ngapain, seperti munculin form yang tidak jelas,
+      tombol-tombol yang tidak jelas, dll.
+10. I : Ketika Anda menggunakan website yang memiliki desain yang jelek, mudah nggak untuk mencapai suatu tujuan?
+11. X : Cukup mempersusah, meskipun ada desain yang bagus juga belum tentu menjamin kita mempermudah untuk
+      melakukan tujuan kita.
+12. I : Untuk lebih spesifiknya, apa yang Anda ketahui mengenai CTF?
+13. X : Kurang tau CTF itu ngapain, masih nol.
+14. I : Boleh tau background Anda?
+15. X : Informatika, angkatan 2017
+16. I : Karena belum tahu tentang CTF, benar apa tidak bahwa Anda juga belum pernah memakai web untuk CTF?
+17. X : Ya, belum.
+18. I : Masuk ke instruksi. Instruksi pertama, silakan menuju ke dashboard anda.
+19. X : (04:50 mengecek domain memastikan sudah benar) Yaapa masuknya.
 (04:58 menemukan register)
 (05:23 selesai register, ke login)
 (05:28 masuk ke dashboard)
-5. X : Sudah
-6. I : Jadi menurut anda, ini dasboard ya?
-7. X : Ya.
-8. I : Yang kedua, bisa sebutkan problem yang ada saat ini?
-9. X : (Menyebutkan judul problemnya, serta nama pembuatnya)
-10. I : Silakan buat problem baru.
-11. X : (06:39 selesai membuat problem baru)
-12. I : Bisa ditunjukkan problem yang baru saja anda buat?
-13. X : (menunjukkan problem yang telah dibuat)
-14. I : Coba cari sebuah problem , selain yang anda buat, kemudian download file tersebut.
-15. X : Ok.
-16. I : Disini tau nggak, problem yang memiliki file dimana?
-17. X : Nggak tau.. (Beberapa saat) apa ini, disuruh apa tadi?
-18. I : (Mengulangi instruksi)
-19. X : (Mencari dan membuka problem satu per satu, mencoba browse problem namun tidak terjadi apa-apa)
+20. X : Sudah
+21. I : Jadi menurut anda, ini dasboard ya?
+22. X : Ya.
+23. I : Yang kedua, bisa sebutkan problem yang ada saat ini?
+24. X : (Menyebutkan judul problemnya, serta nama pembuatnya)
+25. I : Silakan buat problem baru.
+26. X : (06:39 selesai membuat problem baru)
+27. I : Bisa ditunjukkan problem yang baru saja anda buat?
+28. X : (menunjukkan problem yang telah dibuat)
+29. I : Coba cari sebuah problem , selain yang anda buat, kemudian download file tersebut.
+30. X : Ok.
+31. I : Disini tau nggak, problem yang memiliki file dimana?
+32. X : Nggak tau.. (Beberapa saat) apa ini, disuruh apa tadi?
+33. I : (Mengulangi instruksi)
+34. X : (Mencari dan membuka problem satu per satu, mencoba browse problem namun tidak terjadi apa-apa)
 (07:31 menemukan problem berisi file)
-20. I : Bisa tunjukkan problem yang tadi Anda buat?
-21. X : (Menunjukkan problem)
-22. I : Tolong edit problem yang tadi dibuat
-23. X : (Mencoba browse problem, tidak terjadi apa-apa, mencari problem satu-satu)
+35. I : Bisa tunjukkan problem yang tadi Anda buat?
+36. X : (Menunjukkan problem)
+37. I : Tolong edit problem yang tadi dibuat
+38. X : (Mencoba browse problem, tidak terjadi apa-apa, mencari problem satu-satu)
 (08:11 menemukan edit problem)
 (08:45 selesai edit problem)
-24. I : Bisa ditunjukkan perubahannya?
-25. X : (Menunjukkan problem yang telah diedit, sadar bahwa problem tidak berubah, mencoba edit lagi)
+39. I : Bisa ditunjukkan perubahannya?
+40. X : (Menunjukkan problem yang telah diedit, sadar bahwa problem tidak berubah, mencoba edit lagi)
 (09:30 Sukses edit problem)
-26 I : Dari sekian banyak problem, selesaikan 1 buah problem yang menurut anda mudah, selain problem anda.
-27. X : (09:52 Selesaikan 1 problem - sempat kebingungan apa yang terjadi karena background soal berubah menjadi abu-abu)
-28. I : Silakan cek siapa yang memiliki skor tertinggi.
-29. X : (10:12 Membuka Scoreboard, menyebutkan peraih skor tertinggi)
-30. I : Lalu, tunjukkan Anda telah menyelesaikan problem apa saja.
-31. X : (10:27 Membuka submission history), Ini submission, problem nomer 3.
-32. I : Bisa nunjukkin problem nomor 3 yang mana?
-33. X : (Membuka List of problems), Tidak.
-34. I : Ok, jadi tadi kan sudah membuat sebuah problem, problem yang dibuat tadi yang mana?
-35. X : Ini.
-36. I : Sekarang sudah selesai, silakan keluar dari sistem ini.
-37. X : Ok.
+41 I : Dari sekian banyak problem, selesaikan 1 buah problem yang menurut anda mudah, selain problem anda.
+42. X : (09:52 Selesaikan 1 problem - sempat kebingungan apa yang terjadi karena background soal berubah menjadi abu-abu)
+43. I : Silakan cek siapa yang memiliki skor tertinggi.
+44. X : (10:12 Membuka Scoreboard, menyebutkan peraih skor tertinggi)
+45. I : Lalu, tunjukkan Anda telah menyelesaikan problem apa saja.
+46. X : (10:27 Membuka submission history), Ini submission, problem nomer 3.
+47. I : Bisa nunjukkin problem nomor 3 yang mana?
+48. X : (Membuka List of problems), Tidak.
+49. I : Ok, jadi tadi kan sudah membuat sebuah problem, problem yang dibuat tadi yang mana?
+50. X : Ini.
+51. I : Sekarang sudah selesai, silakan keluar dari sistem ini.
+52. X : Ok.
 (11:22 berhasil log-out)
 ```
-
 ### Participant 2
 1. x : jadi disini kami akan ngetees sebelum sistem jadi perlu diingat yang perlu dites sistemnya bukan kemampuan anda jadi santai   aja,tapi sebelum mulai kita ingin tahu background terlebih dahuulu,jadi akan ada pertanyaan pertanyaan pertama itu apakah anada mengkategorikan diri anda itu sebagai pengguna aktif internet
 1. y : ya
@@ -293,17 +312,16 @@ Interviewee = X
 ```
 Interviewer = I
 Interviewee = X
-1. X : Mencari flag buat disubmit. Nantinya banyak-banyakan poin buat menangin.
-2. X : Kalau menggunakan belum, tapi pernah melihat, terakhir setahun yang lalu.
-3. I : Yang pertama, silakan menuju ke dashboard.
-4. X : (Di halaman login), ini sudah dashboard?
+
+1. I : Yang pertama, silakan menuju ke dashboard.
+2. X : (Di halaman login), ini sudah dashboard?
 (04:11 menemukan register, kembali lagi ke login, ragu bahwa halaman login merupakan dashboard)
-5. I : Itu login page. Dashboard merupakan halaman Anda.
-6. X : Kalo mendaftar gitu boleh?
-7. I : Tidak masalah.
+3. I : Itu login page. Dashboard merupakan halaman Anda.
+4. X : Kalo mendaftar gitu boleh?
+5. I : Tidak masalah.
 (04:46 berhasil register)
-8. I : Kalau misal Anda melihat ada sesuatu yang aneh, bisa diutarakan, karena untuk mengetes sistemnya.
-10. I : Selanjutnya bisa tolong sebutkan judul problem yang ada?
+6. I : Kalau misal Anda melihat ada sesuatu yang aneh, bisa diutarakan, karena untuk mengetes sistemnya.
+7. I : Selanjutnya bisa tolong sebutkan judul problem yang ada?
 11. X : (Menyebutkan judul problem beserta pembuatnya)
 12. I : Next, silakan buat sebuah problem lalu tambahkan file di problem tersebut.
 (06:11 berhasil menambahkan problem)
