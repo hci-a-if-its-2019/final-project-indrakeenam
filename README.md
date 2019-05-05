@@ -340,55 +340,77 @@ lebih ke email sih,dari google ,gmail gitu sih
 ```
 ### Participant 4
 ```
-Interviewer = I
-Interviewee = X
+1. Me : Apakah anda pengguna aktif internte?
+2. Him : Iya.
+3. Me : Seberapa aktif anda di internet?
+4. Him : Sering sih, hampir 2/3 hari menggunakan.
+5. Me : Website jenis apa yang anda kunjungi?
+6. Him : Youtube.
+7. Me : Pernah enggak mengunjungi website dengan desain yang jelek?
+8. Him : Di Youtube?
+9. Me : Enggak harus di youtube.
+10. Him : Oh pernah pasti.
+11. Me : Menurut Anda seberapa susah sih menurut Anda agar Anda dapat menjalani tujuan Anda ketika menggunakan website yang jelek tadi?
+12. Him : Cukup mengganggu
+13. Me : Seberapa mengganggu sih, bisa mungkin dijelaskan kenapa menurut anda itu mengganggu?
+14. Him : Harusnya bisa dilakukan dengan simple tetapi karena ada desain yang buruk tadi waktu yang dipake jadi lebih lama.
+15. Me : Apa yang anda tahu tentang CTF?
+16. Him : Ya, Capture The Flag, itu cari flag buat di submit gitu buat menangi CTF nya gitu.
+17. Me : Pernah enggak menggunakan web CTF itu?
+18. Him : Kalau menggunakan belum pernah tapi kalau melihat sudah pernah.
+19. Me : Terakhir kali melihat kapan itu?
+20. Him : Semester 3, 2 gitu.
+21. Me : (*Explain that there will be an instruction that He must try to finish)
+22. Me : Silahkan tunjukkan dashboard anda.
+23. Him : (*Show login page) Ini kayaknya.
+24. Me : (*Explain that it was a Login Page)
+25. Him : Kalau daftar gitu boleh?
+26. Me : Boleh.
+27.	Him : (*Goto Registration page and Filled all the form, then submit it) 
+28. Him : (*Goto Login page and Filled all the form, then submit it)
+29. Him : (*Shown me Dashboard)
+30. Me : Bisa tolong sebutkan judul dari problem - problem yang ada.
+31. Him : (*Tell me all of the Problem's title and their maker)
+32. Me : Jadi menurut anda itu judul - judul dari problem yang ada ya?
+33. Him : Iya.
+34. Me : Silahkan buat sebuah problem dan tambahkan file di problem tadi.
+35. Him : (*Clicked Problems then Create A Problem)
+36. Him : (*Filled all the form and attached the file)
+37. Me : Bisa tunjukkan problem yang tadi dibuat.
+38. Him : (*Hover only at his problem then hover to *Problems menu then back to the problem list and dragged the text)
+39. Him : (*Clicked it but didn't notice it was opening, then scrolled the page down) 
+40. Him : Kalau ini sedikit sulit menurut saya, Harusnya kalau bisa di cation gini mouse pointernya berubah.
+41. Me : Silahkan edit problem yang tadi anda buat.
+42. Him : (*Hovered in problems, Then back to last problem, tries to click it multiple times)
+43. Him : (*Clicked his profile, then clicked the Edit)
+44. Him : (*Edited the form and save it)
+45. Me : Bisa tunjukkan perubahannya
+46. Him : (*Shown me the change by solving it)
+47. Me : Silahkan cari sebuah problem yang memiliki file, lalu tunjukkan file itu.
+48. Him : (*Opened the problem one by one and found it)
+49. Me : Silahkan salah satu problem selain yang anda buat.
+50. Him : (*Opened a problem and solve it)
+51. Me : Bisa nunjukkan username dengan skor tertinggi?
+52. Him : (*Clicked the scoreboard and spoke it to me)
+53. Me : Bisa enggak nunjukkan submission history yang ditunjukkan.
+54. Him : (*Clicked his username and shown me the result)
+55. Me : Bisa enggak nunjukkin Problem Nomor 7 itu yang mana?
+56. Him : (*Goes back to problem list and open it one by one then surrender)
+57. Me : Bisa enggak nunjukkin problem - problem apa saja yang sudah anda tambahkan?
+58. Him : (*Clicked the username and shown me)
+59. Me : Silahkan delete salah satu problem anda/
+60. Him : (*Deleted one and the problem and server returned some weird error)
+61. Me : Paham enggak kenapa error tadi?
+62. Him : Sepertinya kesalahan di server nya.
+63. Me : Silahkan me log out dari situ.
+64. Him : Logged out from the system.
 
-1. I : Yang pertama, silakan menuju ke dashboard.
-2. X : (Di halaman login), ini sudah dashboard?
-(04:11 menemukan register, kembali lagi ke login, ragu bahwa halaman login merupakan dashboard)
-3. I : Itu login page. Dashboard merupakan halaman Anda.
-4. X : Kalo mendaftar gitu boleh?
-5. I : Tidak masalah.
-(04:46 berhasil register)
-6. I : Kalau misal Anda melihat ada sesuatu yang aneh, bisa diutarakan, karena untuk mengetes sistemnya.
-7. I : Selanjutnya bisa tolong sebutkan judul problem yang ada?
-11. X : (Menyebutkan judul problem beserta pembuatnya)
-12. I : Next, silakan buat sebuah problem lalu tambahkan file di problem tersebut.
-(06:11 berhasil menambahkan problem)
-13. I : Bisa tunjukkan problem yang tadi dibuat?
-14. X : (mencoba browse problems, tidak terjadi apa-apa, 06:26 menunjukkan problem yang dibuat), ini sedikit kesusahan saya, harusnya kalau misal bisa di extend problemnya, mouse pointernya berubah gitu.
-15. I : Ok. Lalu, silakan edit problem yang tadi dibuat.
-16. X : (Masih di menu problem, mengklik segala kemungkinan, kemudian membuka halaman profil)
-(07:20 menemukan edit problem)
-(mencoba verifikasi edit, lalu solve problemnya sendiri)
-17. I : Selanjutnya, cari sebuat problem, yang berisi file, emudian download file tersebut, dan tunjukkan kepada kami.
-18. X : (Membuka satu persatu problem)
-(08:09 menemukan sebuah problem berisi file)
-19. I : Silakan selesaikan salah satu problem, selain yang anda buat.
-(08:32 Menyelesaikan 1 problem)
-20. I : Ok, lalu bisa tunjukkan user dengan skor tertinggi?
-21. X : Ok, 
-(08:42 membuka scoreboard, menyebutkan user)
-22. I : Lalu tunjukkan histori Anda menyelesaikan apa saja.
-(09:07 membuka profil, menunjukkan submission history)
-23. I : Bisa menunjukkan problem nomor 7 yang mana?
-24. X : (mencari problem nomor 7, bingung mencari problem nomer 7, mencoba browse problems, mencoba cara lain dengan meng - hitung problem dari atas kebawah), Gabisa, Tidak tau yang mana.
-25. I : Bisa tunjukkan problem apa saja yang sudah anda tambahkan.
-(10:11 menunjukkan profil)
-26. I : Silakan delete salah satu problem anda.
-(10:23 menemukan delete, terdapat error)
-27. I : Apakah bisa?
-28. X : Gak bisa, ini kenapa? (mencoba lagi). Gak bisa.
-29. I : Paham kesalahannya kenapa?
-30. X : Sepertinya servernya ada masalah.
-31. I : Terakhir silakan keluar dari sistem ini.
-32. X : Log - out   
 ```
 
 # Contextual Analysis
 
 ## Artifact Model
-
+![Login Page](artifact/screenshot/Login.PNG)
 ## Flow Model
 
 ## Cultural Model
