@@ -83,6 +83,55 @@ This script is used to evaluate the system's current interface. The user will be
 ## Transcript
 
 ### Participant 1
+```
+Interviewer = I
+Interviewee = X
+1. X : Kurang tau ctf itu apa, pemahaman masih nol.
+2. X : Karena gatau jadi belum pernah memakai situsnya.
+3. I : Instruksi pertama, silakan menuju ke dashboard anda.
+4. X : (04:50 mengecek domain memastikan sudah benar) Yaapa masuknya.
+(04:58 menemukan register)
+(05:23 selesai register, ke login)
+(05:28 masuk ke dashboard)
+5. X : Sudah
+6. I : Jadi menurut anda, ini dasboard ya?
+7. X : Ya.
+8. I : Yang kedua, bisa sebutkan problem yang ada saat ini?
+9. X : (Menyebutkan judul problemnya, serta nama pembuatnya)
+10. I : Silakan buat problem baru.
+11. X : (06:39 selesai membuat problem baru)
+12. I : Bisa ditunjukkan problem yang baru saja anda buat?
+13. X : (menunjukkan problem yang telah dibuat)
+14. I : Coba cari sebuah problem , selain yang anda buat, kemudian download file tersebut.
+15. X : Ok.
+16. I : Disini tau nggak, problem yang memiliki file dimana?
+17. X : Nggak tau.. (Beberapa saat) apa ini, disuruh apa tadi?
+18. I : (Mengulangi instruksi)
+19. X : (Mencari dan membuka problem satu per satu, mencoba browse problem namun tidak terjadi apa-apa)
+(07:31 menemukan problem berisi file)
+20. I : Bisa tunjukkan problem yang tadi Anda buat?
+21. X : (Menunjukkan problem)
+22. I : Tolong edit problem yang tadi dibuat
+23. X : (Mencoba browse problem, tidak terjadi apa-apa, mencari problem satu-satu)
+(08:11 menemukan edit problem)
+(08:45 selesai edit problem)
+24. I : Bisa ditunjukkan perubahannya?
+25. X : (Menunjukkan problem yang telah diedit, sadar bahwa problem tidak berubah, mencoba edit lagi)
+(09:30 Sukses edit problem)
+26 I : Dari sekian banyak problem, selesaikan 1 buah problem yang menurut anda mudah, selain problem anda.
+27. X : (09:52 Selesaikan 1 problem - sempat kebingungan apa yang terjadi karena background soal berubah menjadi abu-abu)
+28. I : Silakan cek siapa yang memiliki skor tertinggi.
+29. X : (10:12 Membuka Scoreboard, menyebutkan peraih skor tertinggi)
+30. I : Lalu, tunjukkan Anda telah menyelesaikan problem apa saja.
+31. X : (10:27 Membuka submission history), Ini submission, problem nomer 3.
+32. I : Bisa nunjukkin problem nomor 3 yang mana?
+33. X : (Membuka List of problems), Tidak.
+34. I : Ok, jadi tadi kan sudah membuat sebuah problem, problem yang dibuat tadi yang mana?
+35. X : Ini.
+36. I : Sekarang sudah selesai, silakan keluar dari sistem ini.
+37. X : Ok.
+(11:22 berhasil log-out)
+```
 
 ### Participant 2
 1. x : jadi disini kami akan ngetees sebelum sistem jadi perlu diingat yang perlu dites sistemnya bukan kemampuan anda jadi santai   aja,tapi sebelum mulai kita ingin tahu background terlebih dahuulu,jadi akan ada pertanyaan pertanyaan pertama itu apakah anada mengkategorikan diri anda itu sebagai pengguna aktif internet
@@ -241,7 +290,52 @@ This script is used to evaluate the system's current interface. The user will be
 
 
 ### Participant 4
-
+```
+Interviewer = I
+Interviewee = X
+1. X : Mencari flag buat disubmit. Nantinya banyak-banyakan poin buat menangin.
+2. X : Kalau menggunakan belum, tapi pernah melihat, terakhir setahun yang lalu.
+3. I : Yang pertama, silakan menuju ke dashboard.
+4. X : (Di halaman login), ini sudah dashboard?
+(04:11 menemukan register, kembali lagi ke login, ragu bahwa halaman login merupakan dashboard)
+5. I : Itu login page. Dashboard merupakan halaman Anda.
+6. X : Kalo mendaftar gitu boleh?
+7. I : Tidak masalah.
+(04:46 berhasil register)
+8. I : Kalau misal Anda melihat ada sesuatu yang aneh, bisa diutarakan, karena untuk mengetes sistemnya.
+10. I : Selanjutnya bisa tolong sebutkan judul problem yang ada?
+11. X : (Menyebutkan judul problem beserta pembuatnya)
+12. I : Next, silakan buat sebuah problem lalu tambahkan file di problem tersebut.
+(06:11 berhasil menambahkan problem)
+13. I : Bisa tunjukkan problem yang tadi dibuat?
+14. X : (mencoba browse problems, tidak terjadi apa-apa, 06:26 menunjukkan problem yang dibuat), ini sedikit kesusahan saya, harusnya kalau misal bisa di extend problemnya, mouse pointernya berubah gitu.
+15. I : Ok. Lalu, silakan edit problem yang tadi dibuat.
+16. X : (Masih di menu problem, mengklik segala kemungkinan, kemudian membuka halaman profil)
+(07:20 menemukan edit problem)
+(mencoba verifikasi edit, lalu solve problemnya sendiri)
+17. I : Selanjutnya, cari sebuat problem, yang berisi file, emudian download file tersebut, dan tunjukkan kepada kami.
+18. X : (Membuka satu persatu problem)
+(08:09 menemukan sebuah problem berisi file)
+19. I : Silakan selesaikan salah satu problem, selain yang anda buat.
+(08:32 Menyelesaikan 1 problem)
+20. I : Ok, lalu bisa tunjukkan user dengan skor tertinggi?
+21. X : Ok, 
+(08:42 membuka scoreboard, menyebutkan user)
+22. I : Lalu tunjukkan histori Anda menyelesaikan apa saja.
+(09:07 membuka profil, menunjukkan submission history)
+23. I : Bisa menunjukkan problem nomor 7 yang mana?
+24. X : (mencari problem nomor 7, bingung mencari problem nomer 7, mencoba browse problems, mencoba cara lain dengan meng - hitung problem dari atas kebawah), Gabisa, Tidak tau yang mana.
+25. I : Bisa tunjukkan problem apa saja yang sudah anda tambahkan.
+(10:11 menunjukkan profil)
+26. I : Silakan delete salah satu problem anda.
+(10:23 menemukan delete, terdapat error)
+27. I : Apakah bisa?
+28. X : Gak bisa, ini kenapa? (mencoba lagi). Gak bisa.
+29. I : Paham kesalahannya kenapa?
+30. X : Sepertinya servernya ada masalah.
+31. I : Terakhir silakan keluar dari sistem ini.
+32. X : Log - out   
+```
 
 # Contextual Analysis
 
