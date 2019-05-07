@@ -84,6 +84,11 @@ This script is used to evaluate the system's current interface. The user will be
 
 ### Participant 1
 ```
+Role :
+Interviewer : Firman
+Host : Indra
+Recorder : Rahma
+
 Interviewer = I
 Interviewee = X
 1. I : Disini kita akan melakukan percobaan terhadap suatu sistem yang kita buat, jadi kita tidak mengetes Anda, 
@@ -154,8 +159,13 @@ Interviewee = X
 ```
 ### Participant 2
 ```
-	x : interviewr
-	y : interviewee
+Role :
+Interviewer : Firman
+Host : Indra
+Recorder : Rahma
+
+x : interviewr
+y : interviewee
 
 1. x : Disini kita menguji sistemnya,bukan menguji anda jadi dikerjakan sebisa mungkin,jadi kalau ada kesalahan yang salah itu sistemnya
 2. y : oke
@@ -242,8 +252,13 @@ lebih ke email sih,dari google ,gmail gitu sih
 
 ### Participant 3
 ```
-	x : interviewr
-	y : interviewee
+Role :
+Interviewer : Firman
+Host : Indra
+Recorder : Rahma
+
+x : interviewr
+y : interviewee
 
 1. x : jadi disini kami akan ngetees sebelum sistem jadi perlu diingat yang perlu dites sistemnya bukan kemampuan anda jadi santai aja,tapi sebelum mulai kita ingin tahu background terlebih dahuulu,jadi akan ada pertanyaan pertanyaan pertama itu apakah anada mengkategorikan diri anda itu sebagai pengguna aktif internet ?
 2. y : ya
@@ -340,6 +355,10 @@ lebih ke email sih,dari google ,gmail gitu sih
 ```
 ### Participant 4
 ```
+Role :
+Interviewer : Firman
+Host : Indra
+Recorder : Rahma
 1. Me : Apakah anda pengguna aktif internte?
 2. Him : Iya.
 3. Me : Seberapa aktif anda di internet?
@@ -379,7 +398,7 @@ lebih ke email sih,dari google ,gmail gitu sih
 37. Me : Bisa tunjukkan problem yang tadi dibuat.
 38. Him : (*Hover only at his problem then hover to *Problems menu then back to the problem list and dragged the text)
 39. Him : (*Clicked it but didn't notice it was opening, then scrolled the page down) 
-40. Him : Kalau ini sedikit sulit menurut saya, Harusnya kalau bisa di cation gini mouse pointernya berubah.
+40. Him : Kalau ini sedikit sulit menurut saya, Harusnya kalau bisa di action gini mouse pointernya berubah.
 41. Me : Silahkan edit problem yang tadi anda buat.
 42. Him : (*Hovered in problems, Then back to last problem, tries to click it multiple times)
 43. Him : (*Clicked his profile, then clicked the Edit)
@@ -395,28 +414,57 @@ lebih ke email sih,dari google ,gmail gitu sih
 53. Me : Bisa enggak nunjukkan submission history yang ditunjukkan.
 54. Him : (*Clicked his username and shown me the result)
 55. Me : Bisa enggak nunjukkin Problem Nomor 7 itu yang mana?
-56. Him : (*Goes back to problem list and open it one by one then surrender)
-57. Me : Bisa enggak nunjukkin problem - problem apa saja yang sudah anda tambahkan?
-58. Him : (*Clicked the username and shown me)
-59. Me : Silahkan delete salah satu problem anda/
-60. Him : (*Deleted one and the problem and server returned some weird error)
-61. Me : Paham enggak kenapa error tadi?
-62. Him : Sepertinya kesalahan di server nya.
-63. Me : Silahkan me log out dari situ.
-64. Him : Logged out from the system.
+56. Him : (*Tries to click it but it didn't do anything)
+57. Him : (*Goes back to problem list and open it one by one then surrender)
+58. Me : Bisa enggak nunjukkin problem - problem apa saja yang sudah anda tambahkan?
+59. Him : (*Clicked the username and shown me)
+60. Me : Silahkan delete salah satu problem anda/
+61. Him : (*Deleted one and the problem and server returned some weird error)
+62. Me : Paham enggak kenapa error tadi?
+63. Him : Sepertinya kesalahan di server nya.
+64. Me : Silahkan me log out dari situ.
+65. Him : Logged out from the system.
 
 ```
 
 # Contextual Analysis
 
-## Artifact Model
-![Login Page](artifact/screenshot/Login.PNG)
-## Flow Model
+## Transcript 4
 
-## Cultural Model
+### Artifact Model
+
+![Main Problems Page](artifact/model/participant-4/artifact-4-1.PNG)
+> **Problem [31]** : Participant can't tell the "Title" of the problems correctly
+> **Problem [38]** : Participant tries to find their created problems in the problem menu.
+> **Problem [42]** : Participant unable to edit their problem through their problem list.
+
+![Expanded Problem Page](artifact/model/participant-4/artifact-4-2.PNG)
+> **Problem [39 and 40]** : There is no feedback when opening or closing the expandable.
+
+![Main Problem Page](artifact/model/participant-4/artifact-4-3.PNG)
+> **Problem [47]** : Participant perform exhaustive search to find a problem with a file in it.
+
+![Profile Page](artifact/model/participant-4/artifact-4-4.PNG)
+> **Problem [56]** : Participant unable to find the problem with the given number.
+
+![User Page](artifact/model/participant-4/artifact-4-5.PNG)
+> **Problem [61]** : Participant didn't understand the error.
+
+### Flow Model
+![Flow Model](artifact/model/participant-4/flow-4.PNG)
+
+### Cultural Model
+![Cultural Model](artifact/model/participant-4/cultural-4.PNG)
 
 ## Do's And Don't
-
+### Do 
+- Give feedback on user action
+- Be consistent
+- Group menu correctly
+- Give hint (indicator)
+### Don't
+- Leave cryptics error
+- Use number in someplace and then use it's title in other place (inconsistent)
 # Prototype - Iteration 1
 
 ## Sketches
