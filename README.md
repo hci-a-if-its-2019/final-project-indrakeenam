@@ -428,6 +428,36 @@ Recorder : Rahma
 ```
 
 # Contextual Analysis
+## Transcript 3
+
+### Artifact Model
+
+![First Problem](artifact/model/participant-3/artifact3_1.png)
+> **Problem [62]** : Participant does'nt know whether problem who he edited was saved or not
+
+![Second Problem](artifact/model/participant-3/artifact3_2.png)
+> **Problem [72]** : Participant difficult to find submission history location,and not too sure about submission history after he found it
+
+![Third Problem](artifact/model/participant-3/artifact3_4.png)
+> **Problem [76]** : Participant Unable to find the problem with the given number
+
+![Fourth Problem](artifact/model/participant-3/artifact3_4.png)
+> **Problem [78]** : Participant difficult to determine recent problem between his submitted problems.
+
+### Flow Model
+![Flow Model](artifact/model/participant-3/flow3.png)
+
+### Cultural Model
+![Cultural Model](artifact/model/participant-3/cultural3.png)
+
+## Do's And Don't
+### Do 
+- Be consistent
+- Give hint indicator if some task had been finished by User
+- Sort descending problems which submitted by User by date or give date of submitted problem
+- Group menu correctly
+### Don't
+- Use number in someplace and then use it's title in other place (inconsistent)
 
 ## Transcript 4
 
