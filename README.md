@@ -428,6 +428,22 @@ Recorder : Rahma
 ```
 
 # Contextual Analysis
+## Transcript 1
+
+### Artifact Model
+
+![Main Problems Page](artifact/model/participant-1/artifact-1-1.jpg)
+![Profile Page](artifact/model/participant-1/artifact-1-2.jpg)
+![Create Problem Page](artifact/model/participant-1/artifact-1-3.jpg)
+
+### Flow Model
+
+![Flow Model](artifact/model/participant-1/flow-1.jpg)
+
+### Cultural Model
+
+![Social Model](artifact/model/participant-1/social-1.jpg)
+
 ## Transcript 3
 
 ### Artifact Model
@@ -449,15 +465,6 @@ Recorder : Rahma
 
 ### Cultural Model
 ![Cultural Model](artifact/model/participant-3/cultural3.png)
-
-## Do's And Don't
-### Do 
-- Be consistent
-- Give hint indicator if some task had been finished by User
-- Sort descending problems which submitted by User by date or give date of submitted problem
-- Group menu correctly
-### Don't
-- Use number in someplace and then use it's title in other place (inconsistent)
 
 ## Transcript 4
 
@@ -491,10 +498,15 @@ Recorder : Rahma
 - Give feedback on user action
 - Be consistent
 - Group menu correctly
-- Give hint (indicator)
+- Give hint (indicator) if some task had been finished by User
+- Add capabilites of Sort descending problems which submitted by User by date or give date of submitted problem
+- Have functional system
+
 ### Don't
+- Make useless navigation
 - Leave cryptics error
 - Use number in someplace and then use it's title in other place (inconsistent)
+
 # Prototype - Iteration 1
 
 ## Sketches
