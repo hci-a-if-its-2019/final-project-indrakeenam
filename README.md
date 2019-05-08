@@ -438,7 +438,7 @@ Recorder : Rahma
 ![Second Problem](artifact/model/participant-3/artifact3_2.png)
 > **Problem [72]** : Participant difficult to find submission history location,and not too sure about submission history after he found it
 
-![Third Problem](artifact/model/participant-3/artifact3_4.png)
+![Third Problem](artifact/model/participant-3/artifact3_3.png)
 > **Problem [76]** : Participant Unable to find the problem with the given number
 
 ![Fourth Problem](artifact/model/participant-3/artifact3_4.png)
