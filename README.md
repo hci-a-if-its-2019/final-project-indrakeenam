@@ -444,6 +444,22 @@ Recorder : Rahma
 
 ![Social Model](artifact/model/participant-1/social-1.jpg)
 
+## Transcript 2
+
+### Artifact Model
+
+![Main Problems Page](artifact/model/participant-2/artifact-2-1.jpg)
+![Profile Page](artifact/model/participant-2/artifact-2-2.jpg)
+![Create Problem Page](artifact/model/participant-2/artifact-2-3.jpg)
+
+### Flow Model
+
+![Flow Model](artifact/model/participant-2/flow-2.PNG)
+
+### Cultural Model
+
+![Cultural Model](artifact/model/participant-2/cultural2.png)
+
 ## Transcript 3
 
 ### Artifact Model
