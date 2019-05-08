@@ -342,7 +342,7 @@ y : interviewee
 74. y : ya gak ada (melihat list problem),
 75. x : gak bisa nunjukin gitu ya
 76. y : ya ga bisa
-77. x : silakan delete salah satu problem yang dibuat tadi
+77. x : silakan delete salah satu problem yang dibuat tadi,kan dua ,yang terbaru
 78. y : (menuju halaman profil)yang terbaru itu ya, ya ini juga harusnya terbaru paling atas biar gampang
 (menghapus salah satu problem)
 79. x : oke
