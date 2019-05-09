@@ -527,6 +527,8 @@ Recorder : Rahma
 
 ## Sketches
 
+Live Sketch can be seen here : https://projects.invisionapp.com/freehand/document/qHyl4PYCu
+
 ## Design Rationale
 
 ## High Fidelity Prototype
