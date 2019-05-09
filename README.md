@@ -543,7 +543,7 @@ Display Panel Type : TN Panel
 ```
 
 ## High Fidelity Prototype
-
+High Fidelity Prototype : https://intip.in/prototypeLOLCTF
 ## User Testing
 
 ## Observation
