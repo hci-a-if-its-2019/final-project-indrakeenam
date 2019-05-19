@@ -28,5 +28,18 @@
 	echo "</div>";
 ?>
 <br>
+<script type="text/javascript">
 
+	$(document).ready(function(){
+	    $(".ptitle").click(function(){
+	        $(this).next().slideToggle("slow");
+	    });
+	});
+
+	$("#jump").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#p1").offset().top -200
+    }, 1000);
+});
+</script>
 <?php include 'part/footer.php'; ?>

@@ -1,26 +1,14 @@
 <?php
 	include("auth.php");
 	include("db.php");
-	include("submitproblem.php");
+    include("submitproblem.php");
 ?>
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Welcome Home</title>
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-<script src='script/script.js'></script>
-</head>
-<body>
-
-<?php include 'navigation.php';?>
+<?php include 'part/header.php'; ?>
+<?php include 'part/navbar.php'; ?>
 
 	<div> 
         <div id='pmaker'>
-            <form method='POST' action=' <?php echo setProblem($con);?>' enctype='multipart/form-data'>
+            <form method='POST' action='<?php echo setProblem($con);?>' enctype='multipart/form-data'>
 		        <h2>Create A Problem</h2>
                 <p>Problem Name</p> 
                 <input type='text' name='pname' style='margin-left: 112px; width:350px;' placeholder='Problem Title' required><br>
@@ -42,11 +30,6 @@
                 <button type='submit' name='psubmit' class='button'>Submit</button>
 	        </form>
 	    </div>
-    </div>";
+    </div>
 
-
-<br>
-<footer class="footer">
-</footer>
-</body>
-</html>
+    <?php include 'part/footer.php'; ?>

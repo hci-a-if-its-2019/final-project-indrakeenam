@@ -65,7 +65,6 @@ Already have one? <a href="login.php">Login here.</a>
         if (!(e.which != 8 && e.which != 0 && ((e.which >= 48 && e.which <= 57)  || (e.which >= 65 && e.which <= 90) || (e.which >= 97 && e.which <= 122) ))) {
             event.preventDefault();
         }
-    
     });
 </script>
 
