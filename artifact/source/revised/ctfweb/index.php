@@ -1,36 +1,13 @@
 <?php
+	$pageTitle = "Dashboard";
 	//include auth.php file on all secure pages
 	include("auth.php");
 	include("db.php");
 	include("submitproblem.php");
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Welcome Home</title>
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-<script src='script/script.js'></script>
-</head>
-<body>
-
-<nav role='navigation'>
-  <ul>
-  	<li><a href="profile.php"><?php echo $_SESSION['username']; ?></a></li>
-    <li><a href="index.php">Problems</a>
-      <ul>
-        <li id="jump"><a href="#">Browse problems</a></li>
-        <li id="makeproblem"><a href="#">Create a problem</a></li>
-      </ul>
-    </li>
-    <li><a href="scoreboard.php">Scoreboard</a></li>
-    <li><a href="logout.php">Log Out</a></li>
-  </ul>
-</nav>  
-<br style="line-height: 100px;">
+<?php include 'part/header.php'; ?>
+<?php include 'part/navbar.php'; ?>
 
 
 <?php
@@ -53,9 +30,6 @@
 ?>
 <br>
 
-<footer class="footer">
-</footer>
-</body>
 <script type="text/javascript">
 	$("#makeproblem").click(function(){
 	$("#hiddenmaker")
@@ -79,4 +53,5 @@
     }, 1000);
 });
 </script>
-</html>
+
+<?php include 'part/footer.php'; ?>

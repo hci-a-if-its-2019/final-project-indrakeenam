@@ -5,33 +5,8 @@
 	include("db.php");
 	include("submitproblem.php");
 ?>
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Welcome Home</title>
-<link rel="stylesheet" href="css/style.css">
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-<script src='script/script.js'></script>
-</head>
-<body>
-
-<nav role='navigation'>
-  <ul>
-  	<li><a href="profile.php"><?php echo $_SESSION['username']; ?></a></li>
-    <li><a href="index.php">Problems</a>
-      <ul>
-        <li><a href="index.php">Browse problems</a></li>
-        <li id="makeproblem"><a href="index.php">Create a problem</a></li>
-      </ul>
-    </li>
-    <li><a href="scoreboard.php">Scoreboard</a></li>
-    <li><a href="logout.php">Log Out</a></li>
-  </ul>
-</nav>  
-<br style="line-height: 100px;">
-
+<?php include 'part/header.php'; ?>
+<?php include 'part/navbar.php'; ?>
 <?php
 	if(isset($_GET['p_id'])) { // if f_id is set then get the file with the f_id from database
 		$p_id = $_GET['p_id'];
@@ -63,9 +38,5 @@
 	}
 ?>
 
+<?php include 'part/footer.php'; ?>
 
-<br>
-<footer class="footer">
-</footer>
-</body>
-</html>
