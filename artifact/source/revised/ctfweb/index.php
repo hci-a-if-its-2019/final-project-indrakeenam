@@ -9,7 +9,6 @@
 <?php include 'part/header.php'; ?>
 <?php include 'part/navbar.php'; ?>
 
-
 <?php
 	echo "<div id='hiddenmaker'><div id='pmaker'><form method='POST' action='".setProblem($con)."' enctype='multipart/form-data'>
 		<h2>Create A Problem</h2>
@@ -29,29 +28,5 @@
 	echo "</div>";
 ?>
 <br>
-
-<script type="text/javascript">
-	$("#makeproblem").click(function(){
-	$("#hiddenmaker")
-	  .css('opacity', 0)
-	  .slideDown('slow')
-	  .animate(
-	    { opacity: 1 },
-	    { queue: false, duration: 'slow' }
-	  );
-	});
-
-	$(document).ready(function(){
-	    $(".ptitle").click(function(){
-	        $(this).next().slideToggle("slow");
-	    });
-	});
-
-	$("#jump").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#p1").offset().top -200
-    }, 1000);
-});
-</script>
 
 <?php include 'part/footer.php'; ?>

@@ -1,10 +1,11 @@
 <nav role='navigation'>
   <ul>
   	<li><a href="profile.php"><?php echo $_SESSION['username']; ?></a></li>
-    <li><a href="index.php">Problems</a>
+    <li><a >Problems</a>
       <ul>
-        <li><a href="index.php">Browse problems</a></li>
-        <li id="makeproblem"><a>Create a problem</a></li>
+        <li id="makeproblem"><a href="myproblem.php">My Problems</a></li>
+        <li id="jump"><a href="index.php">List Problems</a></li>
+				<li id="createproblem"><a href="createproblem.php">Create Problem</a></li>
       </ul>
     </li>
     <li><a href="scoreboard.php">Scoreboard</a></li>
