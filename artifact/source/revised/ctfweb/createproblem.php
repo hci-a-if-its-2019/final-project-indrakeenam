@@ -18,11 +18,12 @@
 
                 <p>Problem Flag</p> 
                 <input type='text' name='flag' style='margin-left: 125px; width:350px;' placeholder='Flag' required><br>
-            
-                <p>Score</p>
-                <input type='text' name='score' style='margin-left: 178px; width:350px;' placeholder='Score' required><br>
-                <p>Description</p>
                 <br>
+                <p>Score</p>
+                <input type='number' name='score' style='margin-left: 178px; width:350px;' placeholder='Score' required><br>
+                <br>
+                <p>Description</p>
+                <br>    
                     <textarea name='desc'></textarea>
                 <br>
                     File (optional) Max : 1MB <input type='file' name='userfile'><br><br>
