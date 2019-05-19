@@ -42,9 +42,13 @@ if(isset($_POST['psubmit']) && $_FILES['userfile']['size'] > 0 && $_FILES['userf
 			$query = "INSERT into `problems` (username, pname, pcategory, flag, score, description, date_created, f_id) VALUES ('$uname', '$pname', '$pcategory', '$flag', '$score', '$desc', '$c_date', '$fileid')";
 		}
         
-        if (!mysqli_query($con,$query)){
+    if (!mysqli_query($con,$query)){
 		  echo("Error description: " . mysqli_error($con));
 		}
+		else{
+			header('Location: '.'/myproblem.php');
+		}
+
 	}
 }
 

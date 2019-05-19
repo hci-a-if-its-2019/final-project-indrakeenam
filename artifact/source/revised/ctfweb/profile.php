@@ -25,7 +25,8 @@
 		echo "<div class='ptitle'><p style='text-align:left;'>";
 		if($row['iscorrect']) echo "Answer Submitted Problem No. ".$row['p_id']." with verdict TRUE<br>";
 		else echo "Answer Submitted Problem No. ".$row['p_id']." with verdict FALSE<br>"; 
-		echo "<span style='float:right;'><br></span></p></div></div>";
+		echo "<span style='float:right;'>";
+		echo "</span></p></div></div>";
 		
 	}
 ?>
