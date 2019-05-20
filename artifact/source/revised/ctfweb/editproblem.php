@@ -10,6 +10,7 @@
 <?php include 'part/navbar.php'; ?>
 <?php
 	if(isset($_GET['p_id'])) { // if f_id is set then get the file with the f_id from database
+		editProblem($con);
 		$p_id = $_GET['p_id'];
 		$query = "SELECT * FROM problems WHERE `p_id`=$p_id";
 		$result = mysqli_query($con,$query) or die('Error, query failed');
