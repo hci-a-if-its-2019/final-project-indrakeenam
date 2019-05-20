@@ -1,2 +1,14 @@
 @import "base";
 
+.problemlist, .answered {
+    margin-top: 5px;
+}
+
+.r-pointer {
+    cursor: pointer;
+}
+
+.r-sideproblem{
+    float: right;
+}
+

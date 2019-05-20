@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Dosis:300|Lato:300,400,600,700|Roboto+Condensed:300,700|Open+Sans+Condensed:300,600|Open+Sans:400,300,600,700|Maven+Pro:400,700);
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 body {
   font-family: Arial, Sans-Serif;
   margin: 0 0 0 0;
@@ -370,5 +369,17 @@ td, th {
   padding: 6px;
   border: 1px solid #ccc;
   text-align: left;
+}
+
+.problemlist, .answered {
+  margin-top: 5px;
+}
+
+.r-pointer {
+  cursor: pointer;
+}
+
+.r-sideproblem {
+  float: right;
 }
 /*# sourceMappingURL=style.css.map */
