@@ -96,7 +96,11 @@ function getProblems($con){
 			 <?php echo $row['p_id']."."; ?>
 			 <?php echo $row['pname']; ?>
 			 </div>
-		 	<div class='panel'> <br><p>Created By : <?php echo $row['username']; ?></p><p><?php echo $row['description']; ?></p><br>
+		 	<div class='panel'> <br>
+			 <p><strong>Created By : </strong><br><?php echo $row['username']; ?></p>
+			 <p><strong>Category   : </strong><br><?php echo $row['pcategory']; ?></p>
+			 <p><strong>Score 	   :</strong><br><?php echo $row['score']; ?></p>
+			 <p><strong>Description:</strong><br><?php echo $row['description']; ?></p>
 		<?php
 
 		if(mysqli_num_rows($istrue)){
@@ -104,6 +108,8 @@ function getProblems($con){
 		}
 		else{
 			if(mysqli_num_rows($results) > 0)  {
+					
+					echo "<p><strong>Attachment:</strong><br></p>";
 					echo '<img class="cek" src="assets/file.ico" width="20px">';
 					echo "<a href='download.php?f_id=".$xf_id."';>".$xname."</a>";
 			}
