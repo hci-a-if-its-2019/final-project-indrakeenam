@@ -61,6 +61,18 @@ function getProblems($con){
 	while($row = mysqli_fetch_assoc($result)){
 		
 		$queryistrue = "SELECT * FROM `submission` WHERE `username`='".$_SESSION['username']."' AND `p_id`='".$row['p_id']."' AND `iscorrect`=TRUE";
+		$queryfile = "SELECT f_id, f_name FROM files WHERE f_id='".$row['f_id']."'";
+		$results = mysqli_query($con,$queryfile) or die('Error, query failed');
+		$xf_id = 0;
+		$xname = 0;
+		$xresult =mysqli_num_rows($results);
+		if(mysqli_num_rows($results) > 0)  {
+			while(list($f_id, $name) = mysqli_fetch_array($results))
+			{
+				$xf_id = $f_id;
+				$xname = $name;
+			}
+		}
 		$istrue = mysqli_query($con,$queryistrue);
 		if($hidproblem){
 			$hidproblem=FALSE;
@@ -68,28 +80,34 @@ function getProblems($con){
 		}
 		else if(mysqli_num_rows($istrue)){
 			echo "<div class='answered'>";
+			
 		}
 		else {
 			echo "<div class='problemlist'>";
 		}
 		?> 
-			<div class='ptitle r-pointer'><p style='text-align:left;'><i class="fas fa-check"></i> <?php echo $row['p_id']; ?> - <?php echo $row['pname']; ?>
-			<span class="r-sideproblem">Tag : <?php echo $row['pcategory']; ?> &nbsp-&nbsp Score : <?php echo $row['score']; ?><br></span></p></div>
-			<div class='panel'> <br><p>Created By : <?php echo $row['username']; ?></p><p><?php echo $row['description']; ?></p><br>
+			<span class="r-sideproblem">
+			<?php if($xresult>0){echo '<img src="assets/file.ico" width="20px">';}?>
+			</span>
+			<div class='ptitle r-pointer'><p style='text-align:left;'>
+			<?php if(mysqli_num_rows($istrue)){
+			echo '<img src="assets/cek.png" width="20px">';
+		}?>
+			 <?php echo $row['p_id']."."; ?>
+			 <?php echo $row['pname']; ?>
+			 </div>
+		 	<div class='panel'> <br><p>Created By : <?php echo $row['username']; ?></p><p><?php echo $row['description']; ?></p><br>
 		<?php
 
 		if(mysqli_num_rows($istrue)){
 			echo "<br><h3>You Solved The Problem!</h3>";
 		}
 		else{
-			$queryfile = "SELECT f_id, f_name FROM files WHERE f_id='".$row['f_id']."'";
-			$results = mysqli_query($con,$queryfile) or die('Error, query failed');
 			if(mysqli_num_rows($results) > 0)  {
-				while(list($f_id, $name) = mysqli_fetch_array($results))
-				{
-					echo "<a href='download.php?f_id=".$f_id."';>".$name."</a>";
-				}
-			} ?>
+					echo '<img class="cek" src="assets/file.ico" width="20px">';
+					echo "<a href='download.php?f_id=".$xf_id."';>".$xname."</a>";
+			}
+			?>
 			<br><br>Your flag<form method='POST' action='<?php echo submitFlag($con); ?>'>
 					<input type='text' name='answer' style='margin-left: 100px; width:350px;' placeholder='Flag'><input type='submit' name='fsubmit' value='Submit' />
 					<input type='hidden' name='p_id' value='<?php echo $row['p_id']; ?>'>
