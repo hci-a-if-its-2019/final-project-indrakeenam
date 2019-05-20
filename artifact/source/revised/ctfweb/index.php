@@ -8,7 +8,7 @@
 
 <?php include 'part/header.php'; ?>
 <?php include 'part/navbar.php'; ?>
-<h2 id='p1'>Problems</h2>
+<h2 id='p1'>List Problems</h2>
 <div class='container-p'>
 	<?php getProblems($con); ?>	
 </div>
