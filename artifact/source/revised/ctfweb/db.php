@@ -1,6 +1,6 @@
 <?php
 //$con = mysqli_connect("localhost","root","","lolctf");
-$con = mysqli_connect("localhost","root","dadada","lolctf");
+$con = mysqli_connect("localhost","root","","lolctf");
 // Check connection
 if (mysqli_connect_errno())
   {
