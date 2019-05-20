@@ -1,4 +1,5 @@
 <?php
+	$pageTitle = "Scoreboard";
 	//include auth.php file on all secure pages
 	include("auth.php");
 	require("db.php");

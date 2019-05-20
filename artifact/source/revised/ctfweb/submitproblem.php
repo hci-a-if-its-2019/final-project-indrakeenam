@@ -72,10 +72,11 @@ function getProblems($con){
 		else {
 			echo "<div class='problemlist'>";
 		}
-		echo "<div class='ptitle'><p style='text-align:left;'>".$row['pname']."&nbsp-&nbsp".$row['username'];
-		echo "<span style='float:right;'>".$row['pcategory']."&nbsp-&nbsp".$row['score']."<br></span></p></div>";
-		echo "<div class='panel'> <br><p>".$row['description']."</p><br>";
-
+		?> 
+			<div class='ptitle r-pointer'><p style='text-align:left;'><i class="fas fa-check"></i> <?php echo $row['p_id']; ?> - <?php echo $row['pname']; ?>
+			<span class="r-sideproblem">Tag : <?php echo $row['pcategory']; ?> &nbsp-&nbsp Score : <?php echo $row['score']; ?><br></span></p></div>
+			<div class='panel'> <br><p>Created By : <?php echo $row['username']; ?></p><p><?php echo $row['description']; ?></p><br>
+		<?php
 
 		if(mysqli_num_rows($istrue)){
 			echo "<br><h3>You Solved The Problem!</h3>";
@@ -88,12 +89,13 @@ function getProblems($con){
 				{
 					echo "<a href='download.php?f_id=".$f_id."';>".$name."</a>";
 				}
-			}
-			echo "	<br><br>Your flag<form method='POST' action='".submitFlag($con)."'>
+			} ?>
+			<br><br>Your flag<form method='POST' action='<?php echo submitFlag($con); ?>'>
 					<input type='text' name='answer' style='margin-left: 100px; width:350px;' placeholder='Flag'><input type='submit' name='fsubmit' value='Submit' />
-					<input type='hidden' name='p_id' value='".$row['p_id']."'>
-					<input type='hidden' name='score' value='".$row['score']."'>
-					</form>";
+					<input type='hidden' name='p_id' value='<?php echo $row['p_id']; ?>'>
+					<input type='hidden' name='score' value='<?php echo $row['score']; ?>'>
+					</form>
+				<?php 
 		}
 		echo "</div></div>";
 	}

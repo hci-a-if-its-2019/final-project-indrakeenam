@@ -1,5 +1,6 @@
 
 <?php
+	$pageTitle = "Edit Problem";
 	//include auth.php file on all secure pages
 	include("auth.php");
 	include("db.php");
@@ -28,7 +29,7 @@
 		<p>Problem Flag</p>
 			<input type='text' name='flag' style='margin-left: 125px; width:350px;' value='<?php echo $row['flag']; ?>' required><br>
 		<p>Score</p>
-			<input type='text' name='score' style='margin-left: 178px; width:350px;' value='<?php echo $row['score'];  ?>' required><br>
+			<input type='text' name='score' style='margin-left: 178px; width:350px;' value='<?php echo $row['score'];  ?>' required pattern="[0-9]+"><br>
 		<p>Description</p><br>
 			<textarea name='desc'>"<?php echo $row['description'];?>"</textarea><br>
 			File (optional) Max : 1MB <input type='file' name='userfile'>

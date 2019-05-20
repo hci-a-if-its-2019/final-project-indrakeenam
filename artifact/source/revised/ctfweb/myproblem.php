@@ -8,16 +8,23 @@
 
 <?php include 'part/header.php'; ?>
 <?php include 'part/navbar.php'; ?>
+<h2 id='p1'>My Problems</h2>
 <?php
 	$uname = $_SESSION['username'];
 	$queryp = "SELECT * FROM problems WHERE `username`='$uname'";
 	$resultp = mysqli_query($con,$queryp);
 	while($row = mysqli_fetch_assoc($resultp)){
-		echo "<div class='problemlist'>";
-		echo "<a href='editproblem.php?p_id=".$row['p_id']."';>Edit&nbsp</a>|&nbsp";
-		echo "<a href='deleteproblem.php?p_id=".$row['p_id']."';>Delete&nbsp</a>";
-		echo "<div class='ptitle'><p style='text-align:left;'>".$row['pname']."&nbsp-&nbsp".$row['username'];
-		echo "<span style='float:right;'>".$row['pcategory']."&nbsp-&nbsp".$row['score']."<br></span></p></div></div>";
+		?>
+		<div class='problemlist'>
+		
+		<div class='ptitle'><p style='text-align:left;'>
+			No. <?php echo $row['p_id']; ?>
+			- <?php echo $row['pname']; ?> <?php
+		echo "<span style='float:right;'> Tag : ".$row['pcategory']." - Score : ".$row['score']."<br></span></p></div>";
+		?>
+		<a href='editproblem.php?p_id=<?php echo $row['p_id']; ?>'>Edit&nbsp</a>|&nbsp
+		<a href='deleteproblem.php?p_id=<?php echo $row['p_id']; ?>'>Delete&nbsp</a>
+		</div> <?php
 	}
 ?>
 <?php include 'part/footer.php'; ?>
