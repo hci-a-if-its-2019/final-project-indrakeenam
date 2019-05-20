@@ -382,4 +382,22 @@ td, th {
 .r-sideproblem {
   float: right;
 }
+
+.problem_sort {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.problem_sort .sort-ASC {
+  display: inline-block;
+  -webkit-transform: rotateZ(180deg) !important;
+          transform: rotateZ(180deg) !important;
+}
+
+.problem_sort img {
+  position: relative;
+  top: 10px;
+  height: 35px;
+}
 /*# sourceMappingURL=style.css.map */
