@@ -1,3 +1,4 @@
+> [Home](../readme.md)
 # Contextual Inquiry
 
 ## Question Script
@@ -43,7 +44,7 @@ This script is used to evaluate the system's current interface. The user will be
 - Active in Competitive Programming
 - Active Internet User
 - Never do CTF before
-- Know about by Definition
+- Know about by Activity
 
 ### Participant 3
 - Male
