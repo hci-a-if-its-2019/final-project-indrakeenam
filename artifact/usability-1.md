@@ -146,3 +146,113 @@ This script is used to evaluate the system's current interface. The user will be
 29. Me : Oke lancar, nah silahkan di logout
 30. Him : (*Clicked the logout button)
 ```
+
+## Observation
+
+### Observation - 1 - Login Page
+![Login Page](../artifact/usability/Login.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 2 - Login Failed Page
+![Login Failed Page](../artifact/usability/LoginFAIL.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 3 - Register Page
+![Register Page](../artifact/usability/Register.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 4 - Register Success Page
+![Register Success Page](../artifact/usability/RegisterOK.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 5 - Register Failed Page
+![Register Failed Page](../artifact/usability/RegisterFAIL.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 6 - Problem List Page
+![List Problem Page](../artifact/usability/ListProblem.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 7 - Problem Menu Page
+![Problem Menu Page](../artifact/usability/ProblemMenu.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+ ### Observation - 8 - Profile Page
+![Profile Page](../artifact/usability/Profile.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 9 - My Problem Page
+![My Problem Page](../artifact/usability/MyProblem.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 9 - Create Problem Page
+![Create Problem Page](../artifact/usability/CreateProblem.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 10 - Edit Problem Page
+![Edit Problem Page](../artifact/usability/EditProblem.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
+
+### Observation - 11 - Scoreboard Page
+![Edit Problem Page](../artifact/usability/Scoreboard.JPG)
+
+ - **Reference**: TBD
+ - **Feedback**: None
+ - **Incidence**: -
+ - **Reason**: -
+ - **Resolution**: -
