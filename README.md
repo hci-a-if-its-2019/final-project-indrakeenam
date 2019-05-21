@@ -27,16 +27,5 @@ This site focuses on individual solving Jeopardies, and sharing their own proble
 
 >[Usability Testing - 1](artifact/usability-1.md)
 
-## User Testing
-
-## Observation
-
-### Observation - 1
-
-### Observation - 2
-
-### Observation - 3
-
-### Do's and Don't
-
-# Result
+## Footnote
+> Thank you for visiting this repository 
