@@ -1,4 +1,4 @@
-> [Home](../readme.md)
+> [Home](../README.md)
 # Contextual Analysis
 ## Transcript 1
 
