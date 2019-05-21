@@ -23,6 +23,8 @@ This site focuses on individual solving Jeopardies, and sharing their own proble
 
 >[Contextual Analysis](artifact/contextual_analysis.md)
 
+>[Progress Presentation](artifact/progress_presentation.pptx)
+
 >[Prototype - 1](artifact/prototype-1.md)
 
 >[Usability Testing - 1](artifact/usability-1.md)
