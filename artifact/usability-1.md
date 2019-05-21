@@ -89,7 +89,7 @@ This script is used to evaluate the system's current interface. The user will be
 38. Him : (*Filled the problem creation form and submit it)
 39. Him : (*Shown me the result) Sudah
 40. Me : Sekarang buat problem lagi tapi tambahkan file sekarang.
-41. Him : (*Hovered in problem and Clicked Create Problem)
+41. Him : (*Hovered in problem menu and Clicked Create Problem)
 42. Him : (*Filled the problem creation form, attach the file and submit it)
 43. Him : (*Shown me the result) Ok
 44. Me : Silahkan cari file yang ada di list problem yang selain anda buat.
@@ -101,7 +101,7 @@ This script is used to evaluate the system's current interface. The user will be
 50. Him : (*Him clicked "My Problem" and edited one of them and save it) Sudah
 51. Me : Selesaikan salah satu problem
 52. Me : Yang selain anda buat, bebas sih mau yang anda buat atau yang selain anda buat
-53. Him : (*Clicked one of the proble and solved the problems quickly)
+53. Him : (*Clicked one of the problem and solved the problems quickly)
 54. Me : Bisa enggak nunjukkin username dengan score tertinggi siapa?
 55. Him : (*Clicked scoreboard) Username... [PEOPLE'S NAME].
 56. Me : Bisa enggak nunjukkin tadi nyelesaiin apa aja?
@@ -140,7 +140,7 @@ This script is used to evaluate the system's current interface. The user will be
 24. Him : (*Shown his created problem (No 23)) Ini
 25. Me : Sampe bener dong gitu?
 26. Him : (*Edited his old problems and edited its answer) Salah jawaban mantab
-27. Him : (*Solved his problem)
+27. Him : (*Clicked his problem and solved it)
 28. Me : Bisa enggak nunjukkin problem - problem yang tadi anda buat apa aja?
 28. Him : (*Opened My Problems page from problem)
 29. Me : Oke lancar, nah silahkan di logout
@@ -148,12 +148,13 @@ This script is used to evaluate the system's current interface. The user will be
 ```
 
 ## Observation
+Here is the list of observation that we found from this usability evaluation. We will only list any improvements or setbacks that we encounter from the last contextual inquiry.
 
 ### Observation - 1 - Login Page
 ![Login Page](../artifact/usability/Login.JPG)
 
- - **Reference**: TBD
- - **Feedback**: None
+ - **Reference**: None
+ - **Feedback**: -
  - **Incidence**: -
  - **Reason**: -
  - **Resolution**: -
@@ -197,21 +198,53 @@ This script is used to evaluate the system's current interface. The user will be
 ### Observation - 6 - Problem List Page
 ![List Problem Page](../artifact/usability/ListProblem.JPG)
 
- - **Reference**: TBD
- - **Feedback**: None
- - **Incidence**: -
- - **Reason**: -
+---
+ - **Picture Reference**: 1
+ - **Transcript Reference**: [Participant 1 Line 35], [Participant 2 Line 7]
+ - **Feedback**: Positive
+ - **Incidence**: Participant are able to tell us exactly the problem's title
+ - **Reason**: Problem Creator's name has been shifted to problem's body
  - **Resolution**: -
-
+---
+ - **Picture Reference**: 2
+ - **Transcript Reference**: [Participant 1 Line 57]
+ - **Feedback**: Positive
+ - **Incidence**: Participant understand which problem that they have solved
+ - **Reason**: There is an Icon that indicate solved problem
+ - **Resolution**: -
+---
+ - **Picture Reference**: 2
+ - **Transcript Reference**: [Participant 2 Line 24]
+ - **Feedback**: Positive
+ - **Incidence**: Participant understand which problem has certain id
+ - **Reason**: There is a numbering besides the problem's title
+ - **Resolution**: -
+---
+ - **Picture Reference**: 3
+ - **Transcript Reference**: [Participant 1 Line 53]
+ - **Feedback**: Positive
+ - **Incidence**: Participant knows that the problem's title is clickable even though he never use this prototype before
+ - **Reason**: The cursor changes into pointer (hand) symbol
+ - **Resolution**: -
+---
+ - **Picture Reference**: 4
+ - **Transcript Reference**: [Participant 1 Line 46]
+ - **Feedback**: Positive
+ - **Incidence**: The user quickly knows that there is a file in this problem
+ - **Reason**: There is an Icon that indicate that this problem contain downloadable file
+ - **Resolution**: -
+---
 ### Observation - 7 - Problem Menu Page
 ![Problem Menu Page](../artifact/usability/ProblemMenu.JPG)
 
- - **Reference**: TBD
- - **Feedback**: None
- - **Incidence**: -
- - **Reason**: -
+---
+ - **Picture Reference**: 1
+ - **Transcript Reference**: [Participant 1 Line 37, 41, 50, 59], [Participant 2 Line 9, 12, 14, 28]
+ - **Feedback**: Positive
+ - **Incidence**: Participant can quickly find any problem related feature in the problem menu
+ - **Reason**: We grouped together any problem related feature in one menu
  - **Resolution**: -
-
+---
  ### Observation - 8 - Profile Page
 ![Profile Page](../artifact/usability/Profile.JPG)
 
@@ -224,11 +257,14 @@ This script is used to evaluate the system's current interface. The user will be
 ### Observation - 9 - My Problem Page
 ![My Problem Page](../artifact/usability/MyProblem.JPG)
 
- - **Reference**: TBD
- - **Feedback**: None
- - **Incidence**: -
- - **Reason**: -
+---
+ - **Picture Reference**: 1
+ - **Transcript Reference**: [Participant 1 Line 59], [Participant 2 Line 28]
+ - **Feedback**: Positive
+ - **Incidence**: Participant can easily found their created problems
+ - **Reason**: There is a page that is dedicated to show participant's problems
  - **Resolution**: -
+---
 
 ### Observation - 9 - Create Problem Page
 ![Create Problem Page](../artifact/usability/CreateProblem.JPG)
