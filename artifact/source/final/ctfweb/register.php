@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<?php include('registerverif.php') ?>
+<?php
+  $_errorpassword = 0;
+  include('registerverif.php') 
+?>
 <html>
 <head>
 <meta charset="utf-8">
@@ -43,8 +46,19 @@
         <span><?php echo $email_error; ?></span>
       <?php endif ?>
     </div>
-    <div>
+    
+    
+    
+     <div>
         <input type="password"  placeholder="Password" name="password" style="width: 460px;" required>
+    </div>
+    <?php 
+    if($_errorpassword){
+      echo "<h5 style='color:red;'>Password Tidak Sesuai</h5>";
+    }
+    ?>
+    <div>
+        <input type="password"  placeholder="Password Confirmation" name="Password_Confirmation" style="width: 460px;" required>
     </div>
 <input type="submit" name="submit" value="Register" />
 </form>
