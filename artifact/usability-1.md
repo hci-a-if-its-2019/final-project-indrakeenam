@@ -45,6 +45,24 @@ This script is used to evaluate the system's current interface. The user will be
 - Never do CTF before
 - Know about CTF (Has seen it)
 
+
+### Participant 3
+- Male
+- Previous Participant
+- Informatics Student Batch 2017 at ITS
+- Active Internet User
+- Never do CTF before
+- Know about CTF
+
+### Participant 4
+- Male
+- Informatics Student Batch 2016 at ITS
+- Active Internet User
+- Never do CTF before
+- Know about CTF (in general)
+
+
+
 ## Transcript
 
 ### Participant 1
