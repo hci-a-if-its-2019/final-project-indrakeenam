@@ -4,15 +4,20 @@ require('db.php');
 $isok = 0;
 // If form submitted, insert values into the database.
 if (isset($_REQUEST['username'])){
-        // removes backslashes
-  $username = stripslashes($_REQUEST['username']);
-        //escapes special characters in a string
-  $username = mysqli_real_escape_string($con,$username); 
-  $email = stripslashes($_REQUEST['email']);
-  $email = mysqli_real_escape_string($con,$email);
-  $password = stripslashes($_REQUEST['password']);
-  $password = mysqli_real_escape_string($con,$password);
-  $trn_date = date("Y-m-d H:i:s");
+  // echo var_dump($_REQUEST);
+  // die;
+  if($_REQUEST['password']!=$_REQUEST['Password_Confirmation']){
+    $_errorpassword = 1;
+  }
+  else{
+    $username = stripslashes($_REQUEST['username']);
+    //escapes special characters in a string
+    $username = mysqli_real_escape_string($con,$username); 
+    $email = stripslashes($_REQUEST['email']);
+    $email = mysqli_real_escape_string($con,$email);
+    $password = stripslashes($_REQUEST['password']);
+    $password = mysqli_real_escape_string($con,$password);
+    $trn_date = date("Y-m-d H:i:s");
 
     $sql_u = "SELECT * FROM users WHERE username='$username'";
     $sql_e = "SELECT * FROM users WHERE email='$email'";
@@ -33,6 +38,7 @@ if (isset($_REQUEST['username'])){
             <br/>Click here to <a href='login.php'>Login</a></div>";
         }
     }
-        
-    }else{}
+  }
+
+    }
 ?>
