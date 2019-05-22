@@ -146,6 +146,141 @@ This script is used to evaluate the system's current interface. The user will be
 29. Me : Oke lancar, nah silahkan di logout
 30. Him : (*Clicked the logout button)
 ```
+### Participant 3
+```
+1. Me :ini melanjutkan yang kemarin, jadi websitenya udah direvisi,langsung ke instruksinya aja ya
+2. Him :(mencoba untuk login),(masuk ke dalam menu dashboard)
+3. Me : pertama tunjukan list problem
+4: ini udah
+5. Me : selanjutnya buat problem baru
+6. Him : (membuat problem baru)
+7. Me : kalau ada masalah atau kurang gitu bilang aja
+8. Him : masukan file juga
+9. Me : iya
+10. Him : udah (menyelsaikan pembuatan problem)
+11. Me : selanjutnya download file dari list problem
+12. Him : ini (mendownload salah satu problem),oke sudah
+13. Me : selanjutnya edit problem yang ada
+14. Him : mengedit problem,
+15. Me : udah?
+16. Him : udah
+17. Me : selesaikan salah satu problem
+18. Him : oke
+19. Me : selsaikan selain problem anda
+20. Him : (menyelsaikan problem)
+21. Me : tunjukan user dengan score anda
+22. Him : udah
+23. Me : tunjukan daftar submisi pembuatan soal,e problem
+24. Him : (masuk ke history submission) 
+25. Me : daftar submisi pembuatan problem
+26. Him : owh (masuk ke . Him problem)
+27. Me : (oke),selanjutnya daftar submisi problem
+28. Him : oke,(menunjukan riwayat submisi
+```
+
+
+### Participant 4
+```
+1. Me : Jadi kami dari kelompok IMK ingin melakukan uji coba website,jadi ini websitenya (menunjukan website),aplikasinya,jadi kamu nanti nguji website ini,menguji sistemnya bukan usernya,jadi kalau ada masalah atau kurangnya komen aja
+2. Him : okeoke
+3. Me : tetapi,sebelum pengujian kami ingin memberikan pertanyaan terlebih dahulu,yang pertama apakah anda mengkategorikan diri anda sebagai pengguna internet
+4. Him : iya
+5. Me : yang aktif?
+6. Him : iya
+7. Me : website apa yang sering kamu kunjungi?
+8. Him : kalau website biasanya kumparan,kalau media sosial termasuk atau tidak?
+9. Me : heem(iya)
+10. Him : kalau media sosial itu,instagram
+11. Me : seberapa sering,sehari berapa waktu yang kamu habiskan?
+12. Him : kira-kira kalau sehari sejam lebih bisa sampai
+13. Me : 2 jam
+14. Him : 1 jam sampai 2 jam 
+15. Me : pernah gak mengunjungi website yang desainya buruk?
+16. Him : pernah
+17. Me : bagaimana pendapatmu tentang itu?,tentang desain yang buruk itu.
+18. Him : mungkin ini sih,ketemunya di PT.Pelni Indonesia itu,itu PT Pelayaran untuk Indonesia harusnyakan di bawah naungan pemerintah,pemerintah harusnya telah menganggarkan dana tapi kenapa desainnya seperti itu gitu lho,lebih ke arah situ sih,mungkin gampangnya sih,itu kan tiket pemesanan kan,mungkin untuk pemesanan tiket tersebut akan berkurang secara drastis,lebih memilih langsung ke loketnya seperti itu,dampaknya sih seperti itu
+19. Me : menurut anda hubungan kesulitan mencapai tujuan tertentu dengan desain yang buruk itu apa
+20. Him : mungkin dari pandangan pertama,karena banyak orang yang menilai,biasanya orang itu menilainya kan pada tampilan awalkan nah seperti itu,kalau tampilan awal gini,ntar orang mikir bakal,ahh tampilannya aja gini gimana dengan fitu-fiturnya gitu lho,mungkin pikiran orang pada kesitu
+21. Me : tahu gak kamu tentang CTF atau Capture The Flag
+22. Him : kalau sekedar tahu ya tahu
+23. Me : menurutmu apa ?
+24. Him : kalau menurutku itu sih sebuah website yang memfasilitasi pengguna terkhusunya apa ya,kayak hacker-hacker gitu hehe kata orang awam gitu kan mengenai hacker-hacker gitu ,bagaimana orang melatih hack kasarannya seperti itulah
+25. Me : pernah gak mengunjungi website ctf sebelumnya?
+26. Him : kalau situsnya belum
+27. Me : pernah menggunakan ?
+28. Him : belum
+29. Me : kalau situs ctf nanti kamu tinggal,ada problem,disitu ada instruksi atau pertanyaan yang meminta memasukan key atua kunci jawaban,nah kunci jawaban itu bisa dicari dimanapun melalui instruksi melalui pertanyaan tersebut gitu,selanjutnya langsung ke instruksinya aja ya,pertama masuk ke dashboard
+30. Him : ini (menunjuk halaman login)
+31. Me : menurutmu yang dashboard yang itu
+32. Him : kalau dashboard menurutku udah login,berarti register dulu ini ya
+33. Me : ya
+34. Him : apa udah dari situ ada passwordnya
+35. Me : belum ada password
+36. Him : (melakukan registrasi)
+37. Me : kalau ada kurang atau nganu bilang aja
+38. Him : (melakukan login)(terjadi kesalahan login)(melakukan resgiter kembali)
+40. Me : selanjutnya,ini dashboardnya?
+41. Him : ya
+42. Me : tunjukan problem yang tersedia
+43. Him : ini
+44. Me : oke
+45. Him : buat problem dan sisipkan file di dalamnya
+46. Me : masukan filenya
+47. Him : masukan (jelajah file)
+48. Me : iya itu deskripnya,bebas sih
+49. Him : ini nanya bolehkan sekaligus evaluasi
+50. Me : iya
+51. Him : problem category ini apa maksudnya?
+52. Me : buat category soalnya,misalkan category hard atau apa gitu
+53. Him : kalau gitu sih sebaiknya,dibuat dua gitu
+54. Me : tapi cetegorynya gak harus deficultnya,tipe kesulitannya juga,itu mungkin problem apa bisa ditambahkan
+55. Him : kalau gitu ,problem category bisa 2 category gak?
+56. Me : ga bisa cuma satu
+57. Him : kalau seharusnya,di satu sisi category easy,di sisi lain category encode gitu
+58. Me : kalau gitu boleh
+59. Him : easy koma,atau gimana?menurutku itu sih kayak bagaimana caranya,problem categorynya bisa beberapa,gak mungkin kan cetegory satu (!! permintaan usulan design tidak termasuk dalam usability test)
+60. Me : oke
+61. Him : kalau problem flag ini
+62. Me : jawaban
+63. Him : flagnya 10 (mengisi create problem),ini maksudnya gambar ini apa (menanyakan fungsi penyisipan file)
+64. Me : itu nanti kalau ada yang mau ngerjain,bisa lihat kalau ada penyisipan file,misalkan ada
+65. Him : kalau menghapus bagaimana (membatalkan penyisipan file)
+66. Me : buat soal problem baru
+67. Him : o gitu mungkin ,kan saya baru tahu kan,kirain,ini sebaiknya ada hapusnya (!! permintaan usulan design tidak termasuk dalam usability test) udah
+67. Me : selanjutnya,download file dalam salah satu list problem,download file yang disisipkan
+68. Him : (partisipan pada awalnya masih membuka problem secara acak dilanjutkan memilih problem berdasarkan icon) ini ni
+(mendownload file )
+69. Me : selanjutnya edit problem yang telah dibuat
+70. Him : (melakukan pengeditan problem)
+71. Me : itu kan ada(usulan untuk menambah fitur penghapusan di edit problem seperti pada create problem)
+72. Him : itu pas di awal,tadi kan gak tahu itunya
+73. Me : selanjutnya selesaikan salah satu problem
+74. Him : waduh,yang mana nih
+75. Me : kalau di edit kembali ke menu ini nih
+76. Him : harusnya kembali keback aja,kayak komentator aja aku ini
+77. Me : ya memang harus ya
+78. Him : (memilih problem untuk diselsaikan) (menyelsaikan beberapa problem) salah ya,
+79. Me : jangan soal sendiri
+80. Him : bisa cuy
+81. Me : ini rulenya ga boleh soal sendiri
+82. Him : (mencoba mengerjakan beberapa soal)
+83. Me : gak harus diselsaikan,ini yang mudah (menunjukan soal yang dapat dijawab)
+84. Him : sepurane,(memilih soal) apa
+85. Me : ada kesulitan gak waktu ngerjain,kesulitan dalam artian mengetahui
+86. Him : kesulitan mungkin apa ya,gak ada masalah sih sebenarnya,cuman belum gara-gara belum pernah gunain ctf
+87. Me : selanjutnya tunjukan username dengan score tertinggi
+88. Him : (masuk menu scoreboard)
+89.selanjutnya tunjukan sumbisi soal yang telah dibuat
+90. Him : ohh yang dibuat (ini)
+91. Me : selanjutnya tunjukan soal yang telah disubmit 
+92. Him : oke
+93. Me : selanjutnya log out
+94. Him : (melakukan log out)
+95. Me : terima kasih (partisipan)
+96. Him : ga ada saran-sarannya
+97. Me : haha ga ada,terima kasih loh ya
+
+```
 
 ## Observation
 Here is the list of observation that we found from this usability evaluation. We will only list any improvements or setbacks that we encounter from the last contextual inquiry.
