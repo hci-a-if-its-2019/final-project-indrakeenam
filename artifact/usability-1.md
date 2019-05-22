@@ -287,16 +287,15 @@ This script is used to evaluate the system's current interface. The user will be
 85. Me : ada kesulitan gak waktu ngerjain,kesulitan dalam artian mengetahui
 86. Him : kesulitan mungkin apa ya,gak ada masalah sih sebenarnya,cuman belum gara-gara belum pernah gunain ctf
 87. Me : selanjutnya tunjukan username dengan score tertinggi
-88. Him : (masuk menu scoreboard)
-89.selanjutnya tunjukan sumbisi soal yang telah dibuat
-90. Him : ohh yang dibuat (ini)
-91. Me : selanjutnya tunjukan soal yang telah disubmit 
-92. Him : oke
-93. Me : selanjutnya log out
-94. Him : (melakukan log out)
-95. Me : terima kasih (partisipan)
-96. Him : ga ada saran-sarannya
-97. Me : haha ga ada,terima kasih loh ya
+88. Him : (masuk menu scoreboard)selanjutnya tunjukan sumbisi soal yang telah dibuat
+89. Him : ohh yang dibuat (ini)
+90. Me : selanjutnya tunjukan soal yang telah disubmit 
+91. Him : oke
+92. Me : selanjutnya log out
+93. Him : (melakukan log out)
+94. Me : terima kasih (partisipan)
+95. Him : ga ada saran-sarannya
+96. Me : haha ga ada,terima kasih loh ya
 
 ```
 
