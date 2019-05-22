@@ -292,3 +292,13 @@ Here is the list of observation that we found from this usability evaluation. We
  - **Incidence**: -
  - **Reason**: -
  - **Resolution**: -
+
+## Prototype
+### Sketch
+Here is the link to High Fidelity https://projects.invisionapp.com/freehand/document/9nFqUAPrI
+
+### Design Rationale
+Based on current usability evaluation we found out that we need to provide a way for user to check what they write on an obscured field, for example password field. We decided to add confirm password field to it.
+
+### High Fidelity Prototype
+For highfidelity prototype please download our final source code [HERE](source/final)
