@@ -169,7 +169,7 @@ This script is used to evaluate the system's current interface. The user will be
 1. Me :ini melanjutkan yang kemarin, jadi websitenya udah direvisi,langsung ke instruksinya aja ya
 2. Him :(mencoba untuk login),(masuk ke dalam menu dashboard)
 3. Me : pertama tunjukan list problem
-4: ini udah
+4: Him : ini udah
 5. Me : selanjutnya buat problem baru
 6. Him : (membuat problem baru)
 7. Me : kalau ada masalah atau kurang gitu bilang aja
@@ -193,7 +193,7 @@ This script is used to evaluate the system's current interface. The user will be
 25. Me : daftar submisi pembuatan problem
 26. Him : owh (masuk ke . Him problem)
 27. Me : (oke),selanjutnya daftar submisi problem
-28. Him : oke,(menunjukan riwayat submisi
+28. Him : oke,(menunjukan riwayat submisi)
 ```
 
 
@@ -236,7 +236,7 @@ This script is used to evaluate the system's current interface. The user will be
 35. Me : belum ada password
 36. Him : (melakukan registrasi)
 37. Me : kalau ada kurang atau nganu bilang aja
-38. Him : (melakukan login)(terjadi kesalahan login)(melakukan resgiter kembali)
+38. Him : (melakukan login)(terjadi kegagalan login)(melakukan resgiter kembali)
 40. Me : selanjutnya,ini dashboardnya?
 41. Him : ya
 42. Me : tunjukan problem yang tersedia
@@ -323,11 +323,12 @@ Here is the list of observation that we found from this usability evaluation. We
 ### Observation - 3 - Register Page
 ![Register Page](../artifact/usability/Register.JPG)
 
- - **Reference**: TBD
- - **Feedback**: None
- - **Incidence**: -
- - **Reason**: -
- - **Resolution**: -
+ - **Reference**: 1
+ - **Transcript Reference**:[Participant 4 Line 38 ]
+ - **Feedback**: Negative
+ - **Incidence**: Participant forget with his password
+ - **Reason**: User not too sure with his password who he inputted immediately, and application not provided box confirmation password that relate to real password
+ - **Resolution**: Create Input Field for pasword confirmation
 
 ### Observation - 4 - Register Success Page
 ![Register Success Page](../artifact/usability/RegisterOK.JPG)
@@ -352,7 +353,7 @@ Here is the list of observation that we found from this usability evaluation. We
 
 ---
  - **Picture Reference**: 1
- - **Transcript Reference**: [Participant 1 Line 35], [Participant 2 Line 7]
+ - **Transcript Reference**: [Participant 1 Line 35], [Participant 2 Line 7] , [Participant 3 Line 3]
  - **Feedback**: Positive
  - **Incidence**: Participant are able to tell us exactly the problem's title
  - **Reason**: Problem Creator's name has been shifted to problem's body
@@ -373,14 +374,14 @@ Here is the list of observation that we found from this usability evaluation. We
  - **Resolution**: -
 ---
  - **Picture Reference**: 3
- - **Transcript Reference**: [Participant 1 Line 53]
+ - **Transcript Reference**: [Participant 1 Line 53] [Participant 4 Line 78 ]
  - **Feedback**: Positive
  - **Incidence**: Participant knows that the problem's title is clickable even though he never use this prototype before
  - **Reason**: The cursor changes into pointer (hand) symbol
  - **Resolution**: -
 ---
  - **Picture Reference**: 4
- - **Transcript Reference**: [Participant 1 Line 46]
+ - **Transcript Reference**: [Participant 1 Line 46],[Participant 3 Line 11]
  - **Feedback**: Positive
  - **Incidence**: The user quickly knows that there is a file in this problem
  - **Reason**: There is an Icon that indicate that this problem contain downloadable file
@@ -391,7 +392,7 @@ Here is the list of observation that we found from this usability evaluation. We
 
 ---
  - **Picture Reference**: 1
- - **Transcript Reference**: [Participant 1 Line 37, 41, 50, 59], [Participant 2 Line 9, 12, 14, 28]
+ - **Transcript Reference**: [Participant 1 Line 37, 41, 50, 59], [Participant 2 Line 9, 12, 14, 28],[Participant 3 Line 3,6,25] ,[Participant 4 Line 47,69,78]
  - **Feedback**: Positive
  - **Incidence**: Participant can quickly find any problem related feature in the problem menu
  - **Reason**: We grouped together any problem related feature in one menu
@@ -411,7 +412,7 @@ Here is the list of observation that we found from this usability evaluation. We
 
 ---
  - **Picture Reference**: 1
- - **Transcript Reference**: [Participant 1 Line 59], [Participant 2 Line 28]
+ - **Transcript Reference**: [Participant 1 Line 59], [Participant 2 Line 28], [Participant 3 25], [Participant 4 Line 89]
  - **Feedback**: Positive
  - **Incidence**: Participant can easily found their created problems
  - **Reason**: There is a page that is dedicated to show participant's problems
