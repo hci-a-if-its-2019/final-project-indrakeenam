@@ -61,7 +61,19 @@ This script is used to evaluate the system's current interface. The user will be
 - Never do CTF before
 - Know about CTF (in general)
 
+### Participant 5
+- Male
+- Student of Informatics Department, class of 2016
+- Active internet user
+- Has a little knowledge about CTF
+- Never use / view CTF platform before
 
+### Participant 6
+- Male
+- Student of Informatics Department, class of 2016
+- Active internet user
+- Knew the basics of Capture The Flag
+- Have ever tried the other CTF website
 
 ## Transcript
 
@@ -297,6 +309,125 @@ This script is used to evaluate the system's current interface. The user will be
 95. Him : ga ada saran-sarannya
 96. Me : haha ga ada,terima kasih loh ya
 
+```
+
+### Participant 5
+
+Interviewer : Indra (I)
+Interviewer : (X)
+
+```text
+(briefing about the evaluation then begin the test)
+1. I : Seberapa aktif Anda mengkategorikan diri Anda sebagai pengguna internet?
+2. X : Termasuk aktif, setiap hari, pas nyari2 referensi, social media.
+3. I : Pernahkah mengunjungi website yang memiliki desain yang buruk.
+4. X : Pernah. Tapi lupa kapan terakhir liatnya.
+5. I : Bagaimana pendapatmu tentang itu?
+6. X : Tentang Layout-ing nya itu seperti tidak balance antara text sama gambar
+    berasa berat / padat sebelah.
+7. I : Apakah website yang memiliki bad design 8. tersebut sulit untuk mencapai
+    tujuan Anda?
+9. X : Sebenarnya kalo sulit nggak nya itu nggak sulit, tapi kurang nyaman aja.
+10. I : Ok. Selanjutnya apakah Anda mengetahui tentang Capture The Flag?
+11. X : Capture The Flag itu nyari semacam breakthrough / celah, dan kalau ber-
+    hasil mendapatkan celah itu, ada semacam rewardnya gitu.
+12. I : Pernahkah Anda menggunakan situs platform CTF?
+13. X : Belum pernah.
+14. I : Kalau lihat? Misal lihat teman makai?
+15. X : Belum.
+16. I : (Menjelaskan singkat terkait CTF dan cara bermainnya)
+17. I : Ok, ke tahap instruksi. Yang pertama, masuklah ke dashboard.
+18. X : Ini kan login, user passwordnya apa?
+19. I : Ya mungkin bisa eksplorasi di tampilannya biar bisa masuk gimana.
+20. X : (Agak lama menemukan register, kemudian register lalu masuk menunjukkan
+    dashboard)
+21. I : Sebutkan 5 problem teratas saat ini.
+22. X : (menyebutkan 5 problem teratas tapi entah mengapa 1 problem terlompati)
+23. I : Coba membuat problem baru dan sisipkan sebuah file di problem tersebut.
+24. X : (Berhasil membuat problem)
+25. I : Coba ditunjukkan.
+26. X : (Menunjukkan problem di my problem)
+27. I : Coba edit problem Anda, ubah skor menjadi 5.
+28. X : (Menekan edit kemudian berhasil edit problem)
+29. I : Coba download sebuah file dari sebuah problem.
+30. X : (Membuka halaman profil, kemudian membuka list problem, memilih salah satu
+    list problem yang berlogo file, mendownload file dan menunjukkannya)
+31. I : Sebutkan username dengan skor tertinggi.
+32. X : (menyebutkan user dengan skor tertinggi beserta skornya)
+33. I : Ok, sekarang coba selesaikan sebuah problem.
+34. X : (bingung memilih problem yang mana, membuka problem yang dibuat user lain
+    namun tidak paham problemnya)
+35. I : Coba solve problem yang math saja.
+36. X : Ok. (Menyelesaikan problem)
+37. I : Tunjukkan submission history mu.
+38. X : (menunjukkan submission history)
+39. I : Bisa nunjukkan problem yang barusan kamu solve, problem nomor 3 itu yang mana?
+40. X : (Menunjukkan problem nomor 3)
+41. I : Coba Log-out dari sistem.
+42. X : (Logging out)
+(end)
+```
+
+# Participant 6
+
+Interviewer : Indra (I)
+Interviewer : (X)
+
+```text
+(briefing about the evaluation then begin the test)
+1. I : Seberapa sering anda menggunakan internet? Kira kira berapa jam sehari?
+2. X : Sering sekali, lebih dari 10 jam per harinya.
+3. I : Apa saja website yang sering dikunjungi?
+4. X : Youtube, Social Media, Stackoverflow, mungkin itu.
+5. I : Pernahkah Anda mengunjungi website yang memiliki bad design?
+6. X : Pernah
+7. I : Bagaimana pendapatmu?
+8. X : Pertama, bikin bingung yang makai walaupun mereka harusnya punya fungsi-
+    fungsi bagus yang harusnya mempermudah pengguna serta memperbagus image
+    mereka, tetapi malah menjadi counter-product, memperburuk kondisi yang
+    ada.
+9. I : Berarti Anda kesulitan kalau menggunakan website tersebut?
+10. X : Ya
+11. I : Berlanjut ke pertanyaan spesifik, Anda tau Capture The Flag? Silakan
+    diterangkan ke saya sepengetahuan Anda.
+12. X : Ya, jadi CTF itu intinya website yang kita bisa mengerjakan soal-soal
+    terkait dengan keamanan jaringan, dari trivia, eksploitasi web.
+    reverse engineering, kriptografi, dan lain lain.
+13. I : Pernahkah Anda menggunakan platform web CTF?
+14. X : Pernah, CTFTime. Terakhir memakai semester lalu.
+15. I : Selanjutya adalah instruksi, pertama cobalah untuk masuk ke dashboard.
+16. X : (Mengisi form registrasi dan login)
+17. I : Sebut dan ucapkan 5 problem teratas saat ini.
+18. X : (Menyebutkan 5 problem teratas)
+19. I : Coba download sebuah file dalam suatu problem.
+20. X : (Mencoba membuka problem yang memiliki logo file, mengklik hyperlink
+    untuk mendownload file, kemudian menunjukkan file yang didownload)
+21. I : Selanjutnya solve 1 problem, bebas.
+22. X : (Solve problem yang dibuka pada instruksi sebelumnya dengan melihat
+    file didalamnya terdapat flag)
+23. I : Buat 1 problem dan sertakan 1 file didalamya.
+24. X : (Hover problems, mengklik create problem, mengisikan data dan file
+    sukses add problem baru)
+25. X : Wooh.. (Terkejut karena sukses membuat problem dan langsung tampil)
+26. I : Tampilkan problem yang habis dibuat
+27. X : (Menampilkan problem)
+28. I : Selanjutnya, edit problem yang habis dibuat.
+29. X : (Membuka my problems, mengklik edit, sukses edit problem)
+30. I : Bisa ditunjukkan?
+31. X : Ya ini. (Menunjukkan problem)
+32. I : Coba sebutkan username dengan skor tertinggi.
+33. X : Username dengan skor tertinggi adalah Rahma, dengan skor 10000.
+34. I : Tunjukkan submission histori Anda.
+35. X : (Sempat mengklik menu lainnya, membuka profil kemudian menemukan
+    submission history)
+36. I : Bisa ditunjukkan problem no. 5 itu yang mana?
+37. X : (menunjukkan problem nomor 5 di list problem) Ini.
+38. I : Sekarang coba log out dari sistem.
+39. X : Ya baik. Terimakasih.
+40. I : Terakhir, apakah ada komentar dari test sistem ini?
+41. X : Sudah bagus, three click rule, UI nya simple tapi elegan. Jadi orang
+    yang memakai sistem ini, gak terlalu bingung.
+(end)
 ```
 
 ## Observation
