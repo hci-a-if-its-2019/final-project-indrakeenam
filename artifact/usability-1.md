@@ -342,7 +342,7 @@ Interviewer : (X)
 20. X : (Agak lama menemukan register, kemudian register lalu masuk menunjukkan
     dashboard)
 21. I : Sebutkan 5 problem teratas saat ini.
-22. X : (menyebutkan 5 problem teratas tapi entah mengapa 1 problem terlompati)
+22. X : (menyebutkan 5 problem teratas tapi entah mengapa 1 problem terlompati / tidak dibaca)
 23. I : Coba membuat problem baru dan sisipkan sebuah file di problem tersebut.
 24. X : (Berhasil membuat problem)
 25. I : Coba ditunjukkan.
@@ -498,7 +498,7 @@ Here is the list of observation that we found from this usability evaluation. We
  - **Resolution**: -
 ---
  - **Picture Reference**: 2
- - **Transcript Reference**: [Participant 2 Line 24]
+ - **Transcript Reference**: [Participant 2 Line 24] [Participant 5 Line 40] [Participant 6 line 37]
  - **Feedback**: Positive
  - **Incidence**: Participant understand which problem has certain id
  - **Reason**: There is a numbering besides the problem's title
@@ -512,7 +512,7 @@ Here is the list of observation that we found from this usability evaluation. We
  - **Resolution**: -
 ---
  - **Picture Reference**: 4
- - **Transcript Reference**: [Participant 1 Line 46],[Participant 3 Line 11]
+ - **Transcript Reference**: [Participant 1 Line 46],[Participant 3 Line 11] [Participant 5 Line 30] [Participant 6 Line 20]
  - **Feedback**: Positive
  - **Incidence**: The user quickly knows that there is a file in this problem
  - **Reason**: There is an Icon that indicate that this problem contain downloadable file
@@ -523,7 +523,7 @@ Here is the list of observation that we found from this usability evaluation. We
 
 ---
  - **Picture Reference**: 1
- - **Transcript Reference**: [Participant 1 Line 37, 41, 50, 59], [Participant 2 Line 9, 12, 14, 28],[Participant 3 Line 3,6,25] ,[Participant 4 Line 47,69,78]
+ - **Transcript Reference**: [Participant 1 Line 37, 41, 50, 59], [Participant 2 Line 9, 12, 14, 28],[Participant 3 Line 3,6,25] ,[Participant 4 Line 47,69,78], [Participant 5 Line 26, 28, 30], [Participant 6 Line 25, 27, 29]
  - **Feedback**: Positive
  - **Incidence**: Participant can quickly find any problem related feature in the problem menu
  - **Reason**: We grouped together any problem related feature in one menu
@@ -543,7 +543,7 @@ Here is the list of observation that we found from this usability evaluation. We
 
 ---
  - **Picture Reference**: 1
- - **Transcript Reference**: [Participant 1 Line 59], [Participant 2 Line 28], [Participant 3 25], [Participant 4 Line 89]
+ - **Transcript Reference**: [Participant 1 Line 59], [Participant 2 Line 28], [Participant 3 25], [Participant 4 Line 89], [Participant 5 Line 26], [Participant 6 Line 25]
  - **Feedback**: Positive
  - **Incidence**: Participant can easily found their created problems
  - **Reason**: There is a page that is dedicated to show participant's problems
